@@ -1,4 +1,20 @@
 {
-    "files.autoSave": "afterDelay",
-    "editor.wordWrap": "on"
+  "files.autoSave": "afterDelay",
+  "editor.wordWrap": "on",
+  "html.autoClosingTags": true,
+  "typescript.autoClosingTags": true,
+  "javascript.autoClosingTags": true,
+  "editor.codeActionsOnSave": {},
+  "editor.suggestOnTriggerCharacters": true,
+  "compile-hero.disable-compile-files-on-did-save-code": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+  "editor.quickSuggestionsDelay": 10,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  }
 }

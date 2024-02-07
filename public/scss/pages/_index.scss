@@ -105,7 +105,7 @@
     }
     &__cmncard {
         table {
-
+            --bs-table-bg: inherit;
             th,
             td {
                 color: rgb(var(--n7));
