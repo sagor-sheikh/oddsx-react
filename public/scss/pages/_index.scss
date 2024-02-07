@@ -98,6 +98,12 @@
         }
 
         .nav-links {
+            &:focus-visible{
+                outline: none;
+            //   outline-style: solid;
+            //   outline-color: rgb(var(--g1));
+            //   border-radius: 16px;
+            }
             .active {
                 border: 1px solid rgb(var(--g1));
             }
