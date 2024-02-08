@@ -408,4 +408,113 @@ export const liveIceHockeyMatch = [
 }
   
 ];
+export const liveIceFifaVoltaMatch = [
+  {
+    id: "1",
+    basketball: "/images/icon/fifa-volta.png",
+    titletwo: "Europe Super League",
+    times: "6′ 2nd half",
+    updown: "/images/icon/live.png",
+    tShart: "/images/icon/play.png",
+    x2: "1x2",
+    douchance: "Double chance",
+    ttl: "Total",
+
+    clubone: "/images/icon/man-united.png",
+    clubtwo: "/images/icon/al-faisaly.png",
+    clubNameOne: "Man United",
+    clubNameTwo: "Chelsea FC",
+
+    chart: "/images/icon/line-chart.png",
+    star: "/images/icon/star2.png",
+    draw: "draw",
+    point: "3.5"
+},
+    {
+      id: "2",
+      basketball: "/images/icon/fifa-volta.png",
+      titletwo: "India Super League",
+      times: "6′ 2nd half",
+      updown: "/images/icon/live.png",
+      tShart: "/images/icon/play.png",
+      x2: "1x2",
+      douchance: "Double chance",
+      ttl: "Total",
+
+      clubone: "/images/icon/mail.png",
+      clubtwo: "/images/icon/new-zealand.png",
+      clubNameOne: "Jamshedpur FC",
+      clubNameTwo: "ATK Mohun Bagan",
+
+      chart: "/images/icon/line-chart.png",
+      star: "/images/icon/star2.png",
+      draw: "draw",
+      point: "3.5"
+  },
+
+{
+  id: "3",
+  basketball: "/images/icon/fifa-volta.png",
+  titletwo: "India Super League",
+  times: "6′ 2nd half",
+  updown: "/images/icon/live.png",
+  tShart: "/images/icon/play.png",
+  x2: "1x2",
+  douchance: "Double chance",
+  ttl: "Total",
+
+  clubone: "/images/icon/mail.png",
+  clubtwo: "/images/icon/new-zealand.png",
+  clubNameOne: "Jamshedpur FC",
+  clubNameTwo: "ATK Mohun Bagan",
+
+  chart: "/images/icon/line-chart.png",
+  star: "/images/icon/star2.png",
+  draw: "draw",
+  point: "3.5"
+},
+{
+  id: "4",
+  basketball: "/images/icon/fifa-volta.png",
+  titletwo: "Europe Super League",
+  times: "6′ 2nd half",
+  updown: "/images/icon/live.png",
+  tShart: "/images/icon/play.png",
+  x2: "1x2",
+  douchance: "Double chance",
+  ttl: "Total",
+
+  clubone: "/images/icon/man-united.png",
+  clubtwo: "/images/icon/al-faisaly.png",
+  clubNameOne: "Man United",
+  clubNameTwo: "Chelsea FC",
+
+  chart: "/images/icon/line-chart.png",
+  star: "/images/icon/star2.png",
+  draw: "draw",
+  point: "3.5"
+},
+{
+  id: "5",
+  basketball: "/images/icon/fifa-volta.png",
+  titletwo: "India Super League",
+  times: "6′ 2nd half",
+  updown: "/images/icon/live.png",
+  tShart: "/images/icon/play.png",
+  x2: "1x2",
+  douchance: "Double chance",
+  ttl: "Total",
+
+  clubone: "/images/icon/mail.png",
+  clubtwo: "/images/icon/new-zealand.png",
+  clubNameOne: "Jamshedpur FC",
+  clubNameTwo: "ATK Mohun Bagan",
+
+  chart: "/images/icon/line-chart.png",
+  star: "/images/icon/star2.png",
+  draw: "draw",
+  point: "3.5"
+}
+  
+];
   
