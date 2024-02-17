@@ -27,16 +27,25 @@
             @include maxQuery(991) {
                 @include box(50);
             }
-
             background-color: rgb(var(--n11));
-
             .footericon {
                 color: #1FBCEE;
+                width: 31px;
+                height: 31px;
+                @include maxQuery(991) {
+                    width: 28px;
+                    height: 28px;
+                }
             }
 
             .bitcoin {
                 color: #FCB400;
-                font-weight: 700;
+                width: 31px;
+                height: 31px;
+                @include maxQuery(991) {
+                    width: 28px;
+                    height: 28px;
+                }
             }
         }
     }
