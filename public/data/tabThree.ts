@@ -1064,4 +1064,469 @@ export const amricanFootballUpCE = [
     point: "3.5"
   },
 ];
-  
+export const nb2klast = [
+  {
+    id: "1",
+    basketball: "/images/icon/fifa-volta.png",
+    titletwo: "Men's World Cup",
+    times: "Today, 23:00",
+    updown: "/images/icon/updwon.png",
+    tShart: "/images/icon/t-shart.png",
+    x2: "1x2",
+    douchance: "Double chance",
+    ttl: "Total",
+
+    clubone: "/images/icon/nigeria.png",
+    clubtwo: "/images/icon/zimbabwe.png",
+    clubNameOne: "Nigeria",
+    clubNameTwo: "Zimbabwe",
+
+    chart: "/images/icon/line-chart.png",
+    star: "/images/icon/star2.png",
+    draw: "draw",
+    point: "3.5"
+  },
+  {
+    id: "2",
+    basketball: "/images/icon/fifa-volta.png",
+    titletwo: "Men's World Cup",
+    times: "Today, 23:00",
+    updown: "/images/icon/updwon.png",
+    tShart: "/images/icon/t-shart.png",
+    x2: "1x2",
+    douchance: "Double chance",
+    ttl: "Total",
+
+    clubone: "/images/icon/ecricket.png",
+    clubtwo: "/images/icon/ecricket.png",
+    clubNameOne: "Nigeria",
+    clubNameTwo: "Zimbabwe",
+
+    chart: "/images/icon/line-chart.png",
+    star: "/images/icon/star2.png",
+    draw: "draw",
+    point: "3.5"
+  },
+  {
+    id: "3",
+    basketball: "/images/icon/fifa-volta.png",
+    titletwo: "Men's World Cup",
+    times: "Today, 23:00",
+    updown: "/images/icon/updwon.png",
+    tShart: "/images/icon/t-shart.png",
+    x2: "1x2",
+    douchance: "Double chance",
+    ttl: "Total",
+
+    clubone: "/images/icon/nigeria.png",
+    clubtwo: "/images/icon/zimbabwe.png",
+    clubNameOne: "Nigeria",
+    clubNameTwo: "Zimbabwe",
+
+    chart: "/images/icon/line-chart.png",
+    star: "/images/icon/star2.png",
+    draw: "draw",
+    point: "3.5"
+  },
+  {
+    id: "4",
+    basketball: "/images/icon/fifa-volta.png",
+    titletwo: "Men's World Cup",
+    times: "Today, 23:00",
+    updown: "/images/icon/updwon.png",
+    tShart: "/images/icon/t-shart.png",
+    x2: "1x2",
+    douchance: "Double chance",
+    ttl: "Total",
+
+    clubone: "/images/icon/ecricket.png",
+    clubtwo: "/images/icon/ecricket.png",
+    clubNameOne: "Nigeria",
+    clubNameTwo: "Zimbabwe",
+
+    chart: "/images/icon/line-chart.png",
+    star: "/images/icon/star2.png",
+    draw: "draw",
+    point: "3.5"
+  },
+  {
+    id: "5",
+    basketball: "/images/icon/fifa-volta.png",
+    titletwo: "Men's World Cup",
+    times: "Today, 23:00",
+    updown: "/images/icon/updwon.png",
+    tShart: "/images/icon/t-shart.png",
+    x2: "1x2",
+    douchance: "Double chance",
+    ttl: "Total",
+
+    clubone: "/images/icon/nigeria.png",
+    clubtwo: "/images/icon/zimbabwe.png",
+    clubNameOne: "Nigeria",
+    clubNameTwo: "Zimbabwe",
+
+    chart: "/images/icon/line-chart.png",
+    star: "/images/icon/star2.png",
+    draw: "draw",
+    point: "3.5"
+  },
+  {
+    id: "6",
+    basketball: "/images/icon/fifa-volta.png",
+    titletwo: "Men's World Cup",
+    times: "Today, 23:00",
+    updown: "/images/icon/updwon.png",
+    tShart: "/images/icon/t-shart.png",
+    x2: "1x2",
+    douchance: "Double chance",
+    ttl: "Total",
+
+    clubone: "/images/icon/ecricket.png",
+    clubtwo: "/images/icon/ecricket.png",
+    clubNameOne: "Nigeria",
+    clubNameTwo: "Zimbabwe",
+
+    chart: "/images/icon/line-chart.png",
+    star: "/images/icon/star2.png",
+    draw: "draw",
+    point: "3.5"
+  },
+  {
+    id: "7",
+    basketball: "/images/icon/fifa-volta.png",
+    titletwo: "Men's World Cup",
+    times: "Today, 23:00",
+    updown: "/images/icon/updwon.png",
+    tShart: "/images/icon/t-shart.png",
+    x2: "1x2",
+    douchance: "Double chance",
+    ttl: "Total",
+
+    clubone: "/images/icon/nigeria.png",
+    clubtwo: "/images/icon/zimbabwe.png",
+    clubNameOne: "Nigeria",
+    clubNameTwo: "Zimbabwe",
+
+    chart: "/images/icon/line-chart.png",
+    star: "/images/icon/star2.png",
+    draw: "draw",
+    point: "3.5"
+  },
+  {
+    id: "8",
+    basketball: "/images/icon/fifa-volta.png",
+    titletwo: "Men's World Cup",
+    times: "Today, 23:00",
+    updown: "/images/icon/updwon.png",
+    tShart: "/images/icon/t-shart.png",
+    x2: "1x2",
+    douchance: "Double chance",
+    ttl: "Total",
+
+    clubone: "/images/icon/ecricket.png",
+    clubtwo: "/images/icon/ecricket.png",
+    clubNameOne: "Nigeria",
+    clubNameTwo: "Zimbabwe",
+
+    chart: "/images/icon/line-chart.png",
+    star: "/images/icon/star2.png",
+    draw: "draw",
+    point: "3.5"
+  },
+  {
+    id: "9",
+    basketball: "/images/icon/fifa-volta.png",
+    titletwo: "Men's World Cup",
+    times: "Today, 23:00",
+    updown: "/images/icon/updwon.png",
+    tShart: "/images/icon/t-shart.png",
+    x2: "1x2",
+    douchance: "Double chance",
+    ttl: "Total",
+
+    clubone: "/images/icon/nigeria.png",
+    clubtwo: "/images/icon/zimbabwe.png",
+    clubNameOne: "Nigeria",
+    clubNameTwo: "Zimbabwe",
+
+    chart: "/images/icon/line-chart.png",
+    star: "/images/icon/star2.png",
+    draw: "draw",
+    point: "3.5"
+  },
+  {
+    id: "10",
+    basketball: "/images/icon/fifa-volta.png",
+    titletwo: "Men's World Cup",
+    times: "Today, 23:00",
+    updown: "/images/icon/updwon.png",
+    tShart: "/images/icon/t-shart.png",
+    x2: "1x2",
+    douchance: "Double chance",
+    ttl: "Total",
+
+    clubone: "/images/icon/ecricket.png",
+    clubtwo: "/images/icon/ecricket.png",
+    clubNameOne: "Nigeria",
+    clubNameTwo: "Zimbabwe",
+
+    chart: "/images/icon/line-chart.png",
+    star: "/images/icon/star2.png",
+    draw: "draw",
+    point: "3.5"
+  },
+];
+export const fifaVoltaLast = [
+  {
+    id: "1",
+    basketball: "/images/icon/fifa-volta.png",
+    titletwo: "Men's World Cup",
+    times: "Today, 23:00",
+    updown: "/images/icon/updwon.png",
+    tShart: "/images/icon/t-shart.png",
+    x2: "1x2",
+    douchance: "Double chance",
+    ttl: "Total",
+
+    clubone: "/images/icon/sivasspor.png",
+    clubtwo: "/images/icon/trabzonspor.png",
+    clubNameOne: "Sivasspor",
+    clubNameTwo: "Trabzonspor",
+
+    chart: "/images/icon/line-chart.png",
+    star: "/images/icon/star2.png",
+    draw: "draw",
+    point: "3.5"
+  },
+  {
+    id: "2",
+    basketball: "/images/icon/fifa-volta.png",
+    titletwo: "USA Regular Season",
+    times: "Today, 23:00",
+    updown: "/images/icon/updwon.png",
+    tShart: "/images/icon/t-shart.png",
+    x2: "1x2",
+    douchance: "Double chance",
+    ttl: "Total",
+
+    clubone: "/images/icon/istanbul-basaksehir.png",
+    clubtwo: "/images/icon/pendikspor.png",
+    clubNameOne: "Istanbul Basaksehir",
+    clubNameTwo: "Pendikspor",
+
+    chart: "/images/icon/line-chart.png",
+    star: "/images/icon/star2.png",
+    draw: "draw",
+    point: "3.5"
+  },
+  {
+    id: "3",
+    basketball: "/images/icon/fifa-volta.png",
+    titletwo: "USA NCAA",
+    times: "Today, 13:07",
+    updown: "/images/icon/updwon.png",
+    tShart: "/images/icon/t-shart.png",
+    x2: "1x2",
+    douchance: "Double chance",
+    ttl: "Total",
+
+    clubone: "/images/icon/hellas-verona.png",
+    clubtwo: "/images/icon/us-lecce.png",
+    clubNameOne: "Hellas Verona",
+    clubNameTwo: "US Lecce",
+
+    chart: "/images/icon/line-chart.png",
+    star: "/images/icon/star2.png",
+    draw: "draw",
+    point: "3.5"
+  },
+  {
+    id: "4",
+    basketball: "/images/icon/fifa-volta.png",
+    titletwo: "USA Regular",
+    times: "Today, 23:00",
+    updown: "/images/icon/updwon.png",
+    tShart: "/images/icon/t-shart.png",
+    x2: "1x2",
+    douchance: "Double chance",
+    ttl: "Total",
+
+    clubone: "/images/icon/bologna-fc.png",
+    clubtwo: "/images/icon/us-lecce.png",
+    clubNameOne: "Bologna FC",
+    clubNameTwo: "US Lecce",
+
+    chart: "/images/icon/line-chart.png",
+    star: "/images/icon/star2.png",
+    draw: "draw",
+    point: "3.5"
+  },
+  {
+    id: "5",
+    basketball: "/images/icon/fifa-volta.png",
+    titletwo: "Men's World Cup",
+    times: "Today, 23:00",
+    updown: "/images/icon/updwon.png",
+    tShart: "/images/icon/t-shart.png",
+    x2: "1x2",
+    douchance: "Double chance",
+    ttl: "Total",
+
+    clubone: "/images/icon/fulham-fc.png",
+    clubtwo: "/images/icon/wolverhampton.png",
+    clubNameOne: "Fulham FC",
+    clubNameTwo: "Wolverhampton",
+
+    chart: "/images/icon/line-chart.png",
+    star: "/images/icon/star2.png",
+    draw: "draw",
+    point: "3.5"
+  },
+  {
+    id: "6",
+    basketball: "/images/icon/fifa-volta.png",
+    titletwo: "Men's World Cup",
+    times: "Today, 23:00",
+    updown: "/images/icon/updwon.png",
+    tShart: "/images/icon/t-shart.png",
+    x2: "1x2",
+    douchance: "Double chance",
+    ttl: "Total",
+
+    clubone: "/images/icon/sivasspor.png",
+    clubtwo: "/images/icon/trabzonspor.png",
+    clubNameOne: "Sivasspor",
+    clubNameTwo: "Trabzonspor",
+
+    chart: "/images/icon/line-chart.png",
+    star: "/images/icon/star2.png",
+    draw: "draw",
+    point: "3.5"
+  },
+  {
+    id: "7",
+    basketball: "/images/icon/fifa-volta.png",
+    titletwo: "USA Regular Season",
+    times: "Today, 13:07",
+    updown: "/images/icon/updwon.png",
+    tShart: "/images/icon/t-shart.png",
+    x2: "1x2",
+    douchance: "Double chance",
+    ttl: "Total",
+
+    clubone: "/images/icon/istanbul-basaksehir.png",
+    clubtwo: "/images/icon/pendikspor.png",
+    clubNameOne: "Istanbul Basaksehir",
+    clubNameTwo: "Pendikspor",
+
+    chart: "/images/icon/line-chart.png",
+    star: "/images/icon/star2.png",
+    draw: "draw",
+    point: "3.5"
+  },
+  {
+    id: "8",
+    basketball: "/images/icon/fifa-volta.png",
+    titletwo: "USA NCAA",
+    times: "Today, 23:00",
+    updown: "/images/icon/updwon.png",
+    tShart: "/images/icon/t-shart.png",
+    x2: "1x2",
+    douchance: "Double chance",
+    ttl: "Total",
+
+    clubone: "/images/icon/hellas-verona.png",
+    clubtwo: "/images/icon/us-lecce.png",
+    clubNameOne: "Hellas Verona",
+    clubNameTwo: "US Lecce",
+
+    chart: "/images/icon/line-chart.png",
+    star: "/images/icon/star2.png",
+    draw: "draw",
+    point: "3.5"
+  },
+  {
+    id: "9",
+    basketball: "/images/icon/fifa-volta.png",
+    titletwo: "Men's World Cup",
+    times: "Today, 23:00",
+    updown: "/images/icon/updwon.png",
+    tShart: "/images/icon/t-shart.png",
+    x2: "1x2",
+    douchance: "Double chance",
+    ttl: "Total",
+
+    clubone: "/images/icon/nigeria.png",
+    clubtwo: "/images/icon/zimbabwe.png",
+    clubNameOne: "Nigeria",
+    clubNameTwo: "Zimbabwe",
+
+    chart: "/images/icon/line-chart.png",
+    star: "/images/icon/star2.png",
+    draw: "draw",
+    point: "3.5"
+  },
+  {
+    id: "10",
+    basketball: "/images/icon/fifa-volta.png",
+    titletwo: "USA Regular",
+    times: "Today, 13:07",
+    updown: "/images/icon/updwon.png",
+    tShart: "/images/icon/t-shart.png",
+    x2: "1x2",
+    douchance: "Double chance",
+    ttl: "Total",
+
+    clubone: "/images/icon/bologna-fc.png",
+    clubtwo: "/images/icon/us-lecce.png",
+    clubNameOne: "Bologna FC",
+    clubNameTwo: "US Lecce",
+
+    chart: "/images/icon/line-chart.png",
+    star: "/images/icon/star2.png",
+    draw: "draw",
+    point: "3.5"
+  },
+  {
+    id: "11",
+    basketball: "/images/icon/fifa-volta.png",
+    titletwo: "Turkiye. Super Lig",
+    times: "Today, 13:07",
+    updown: "/images/icon/updwon.png",
+    tShart: "/images/icon/t-shart.png",
+    x2: "1x2",
+    douchance: "Double chance",
+    ttl: "Total",
+
+    clubone: "/images/icon/bologna-fc.png",
+    clubtwo: "/images/icon/torino-fc.png",
+    clubNameOne: "Bologna FC",
+    clubNameTwo: "Torino FC",
+
+    chart: "/images/icon/line-chart.png",
+    star: "/images/icon/star2.png",
+    draw: "draw",
+    point: "3.5"
+  },
+  {
+    id: "12",
+    basketball: "/images/icon/fifa-volta.png",
+    titletwo: "USA Regular",
+    times: "Today, 13:07",
+    updown: "/images/icon/updwon.png",
+    tShart: "/images/icon/t-shart.png",
+    x2: "1x2",
+    douchance: "Double chance",
+    ttl: "Total",
+
+    clubone: "/images/icon/fulham-fc.png",
+    clubtwo: "/images/icon/wolverhampton.png",
+    clubNameOne: "Fulham FC",
+    clubNameTwo: "Wolverhampton",
+
+    chart: "/images/icon/line-chart.png",
+    star: "/images/icon/star2.png",
+    draw: "draw",
+    point: "3.5"
+  },
+];
