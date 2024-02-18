@@ -1,12 +1,11 @@
 "use client";
-import { Tab } from "@headlessui/react";
 import Image from "next/image";
+import { Tab } from "@headlessui/react";
 import { tabOne, soccerMatch, basketballMatch, iceHockeyMatch } from "@/public/data/tabOne";
-import { useState } from 'react';
 
 export default function HeroMatches() {
-  const [isActive, setIsActive] = useState(false);
-  
+
+
   return (
     <>
       <section className="top_matches">
@@ -31,7 +30,7 @@ export default function HeroMatches() {
                           <Tab.List className="tablinks d-flex align-items-center gap-4 flex-wrap mb-5 mb-md-6">
                             {tabOne.map(({ imgSrc, buttonName }) => (
                               <Tab className="nav-links" key={buttonName}>
-                                <div className={`tablink clickable-active2 d-flex align-items-center gap-2 py-2 px-4 p3-bg rounded-17 ${isActive ? 'active' : ''}`}>
+                                <div className="tablink clickable-active2 d-flex align-items-center gap-2 py-2 px-4 p3-bg rounded-17">
                                   <Image
                                     width={16}
                                     height={16}
@@ -73,8 +72,7 @@ export default function HeroMatches() {
                                         <div className="top_matches__clubname">
                                           <div className="top_matches__cmncard-right d-flex align-items-start justify-content-between pb-4 mb-4 gap-4 ">
                                             <div className="d-flex align-items-center gap-1">
-                                              <Image
-                                                src={football}
+                                              <Image                                                src={football}
                                                 width={16}
                                                 height={16}
                                                 alt="Icon"
@@ -592,7 +590,7 @@ export default function HeroMatches() {
                                                 <tr>
                                                   <td className="pt-4">
                                                     <div className="top_matches__innercount d-flex align-items-center gap-2 ">
-                                                      <div className="top_matches__innercount-item clickable-active py-1 px-8 rounded-3 n11-bg">
+                                                      <div className="top_matches__innercount-item clickable-active py-1 px-8 rounded-3 n11-bg text-center">
                                                         <span className="fs-seven d-block mb-2">
                                                           1
                                                         </span>
@@ -600,7 +598,7 @@ export default function HeroMatches() {
                                                           3.45
                                                         </span>
                                                       </div>
-                                                      <div className="top_matches__innercount-item clickable-active py-1 px-8 rounded-3 n11-bg">
+                                                      <div className="top_matches__innercount-item clickable-active py-1 px-8 rounded-3 n11-bg text-center">
                                                         <span className="fs-seven d-block mb-2">
                                                           2
                                                         </span>
@@ -608,7 +606,7 @@ export default function HeroMatches() {
                                                           3.45
                                                         </span>
                                                       </div>
-                                                      <div className="top_matches__innercount-item clickable-active py-1 px-8 rounded-3 n11-bg">
+                                                      <div className="top_matches__innercount-item clickable-active py-1 px-8 rounded-3 n11-bg text-center">
                                                         <span className="fs-seven d-block mb-2">
                                                           draw
                                                         </span>
@@ -620,7 +618,7 @@ export default function HeroMatches() {
                                                   </td>
                                                   <td className="pt-4">
                                                     <div className="top_matches__innercount d-flex align-items-center gap-2 ">
-                                                      <div className="top_matches__innercount-item clickable-active py-1 px-8 rounded-3 n11-bg">
+                                                      <div className="top_matches__innercount-item clickable-active py-1 px-8 rounded-3 n11-bg text-center">
                                                         <span className="fs-seven d-block mb-2">
                                                           draw
                                                         </span>
@@ -628,7 +626,7 @@ export default function HeroMatches() {
                                                           3.45
                                                         </span>
                                                       </div>
-                                                      <div className="top_matches__innercount-item clickable-active py-1 px-8 rounded-3 n11-bg">
+                                                      <div className="top_matches__innercount-item clickable-active py-1 px-8 rounded-3 n11-bg text-center">
                                                         <span className="fs-seven d-block mb-2">
                                                           draw
                                                         </span>
@@ -636,7 +634,7 @@ export default function HeroMatches() {
                                                           3.45
                                                         </span>
                                                       </div>
-                                                      <div className="top_matches__innercount-item clickable-active py-1 px-8 rounded-3 n11-bg">
+                                                      <div className="top_matches__innercount-item clickable-active py-1 px-8 rounded-3 n11-bg text-center">
                                                         <span className="fs-seven d-block mb-2">
                                                           draw
                                                         </span>
@@ -648,7 +646,7 @@ export default function HeroMatches() {
                                                   </td>
                                                   <td className="pt-4">
                                                     <div className="top_matches__innercount d-flex align-items-center gap-2 ">
-                                                      <div className="top_matches__innercount-item clickable-active py-1 px-8 rounded-3 n11-bg">
+                                                      <div className="top_matches__innercount-item clickable-active py-1 px-8 rounded-3 n11-bg text-center">
                                                         <span className="fs-seven d-block mb-2">
                                                           draw
                                                         </span>
@@ -656,7 +654,7 @@ export default function HeroMatches() {
                                                           3.45
                                                         </span>
                                                       </div>
-                                                      <div className="top_matches__innercount-item clickable-active py-1 px-8 rounded-3 n11-bg">
+                                                      <div className="top_matches__innercount-item clickable-active py-1 px-8 rounded-3 n11-bg text-center">
                                                         <span className="fs-seven d-block mb-2">
                                                           draw
                                                         </span>
@@ -664,7 +662,7 @@ export default function HeroMatches() {
                                                           3.45
                                                         </span>
                                                       </div>
-                                                      <div className="top_matches__innercount-item clickable-active py-1 px-8 rounded-3 n11-bg">
+                                                      <div className="top_matches__innercount-item clickable-active py-1 px-8 rounded-3 n11-bg text-center">
                                                         <span className="fs-seven d-block mb-2">
                                                           draw
                                                         </span>

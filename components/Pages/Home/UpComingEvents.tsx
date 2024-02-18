@@ -9,7 +9,7 @@ export default function UpComingEvents() {
 
     return (
         <>
-            <section className="top_matches pb-120">
+            <section className="top_matches pb-5 pb-md-6">
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-12 gx-0 gx-lg-4">

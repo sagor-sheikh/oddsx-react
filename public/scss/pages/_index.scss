@@ -56,6 +56,11 @@
 }
 // Hero Section Ends
 // Top Matches Section Starts
+.clickable-active{
+    &:hover {
+        background-color: rgb(var(--g1));
+    }
+}
 .top_matches {
     &__main {
         margin: 30px 0 0 303px;

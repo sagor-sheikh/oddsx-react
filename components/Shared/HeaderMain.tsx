@@ -12,7 +12,7 @@ export default function HeaderMain() {
                 <ul
                     className="navbar-nav2fixed  navbar-nav d-flex align-items-lg-center gap-4 gap-sm-5  py-2 py-lg-0 align-self-center p2-bg">
                     <li className="dropdown show-dropdown">
-                        <Link href="index.html">Home</Link>
+                        <Link href="/">Home</Link>
                     </li>
                     <li className="dropdown show-dropdown">
                         <Link href="floorball.html">Live Betting</Link>
@@ -89,7 +89,7 @@ export default function HeaderMain() {
                 className="logo-area slide-toggle3 trader-list position-fixed top-0 d-flex align-items-center justify-content-center pt-6 pt-md-8 gap-sm-4 gap-md-5 gap-lg-7 px-4 px-lg-8">
                 <i className="ti ti-menu-deep left-nav-icon n8-color order-2 order-lg-0 d-none">
                 </i>
-                <Link className="navbar-brand d-center text-center gap-1 gap-lg-2 ms-lg-4" href="index.html">
+                <Link className="navbar-brand d-center text-center gap-1 gap-lg-2 ms-lg-4" href="/">
                     <Image className="logo" width={32} height={34} src="/images/logo.png" alt="Logo" />
                     <Image className="logo d-none d-xl-block" width={64} height={24} src="/images/logo-text.png" alt="Logo" />
                 </Link>
@@ -102,7 +102,7 @@ export default function HeaderMain() {
                 </div>
                 <ul className="secend-actives bg1-color rounded-5 d-flex flex-column gap-5 mb-5">
                     <li className="active">
-                        <Link href="index.html" className="d-flex align-items-center gap-2"><i
+                        <Link href="/" className="d-flex align-items-center gap-2"><i
                                 className="ti ti-brand-google-home n5-color fs-five"></i> Home</Link>
                     </li>
                     <li className="active">
@@ -124,7 +124,7 @@ export default function HeaderMain() {
                 <h5 className="mb-4 mb-md-6 mt-4 mt-md-6">Popular</h5>
                 <ul className="aside_namelist d-flex flex-column gap-2">
                     <li className="d-flex align-items-center justify-content-between px-3 py-2 rounded-3 gap-5">
-                        <Link href="soccer.html" className="d-flex align-items-center gap-2"><Image
+                        <Link href="/soccer" className="d-flex align-items-center gap-2"><Image
                                 width={16} height={16} src="/images/icon/soccer-icon.png" alt="icon" />Soccer</Link>
                         <button type="button" className="g1-color"><i className="ti ti-star"></i></button>
                     </li>
