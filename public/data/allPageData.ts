@@ -1,0 +1,210 @@
+export const upCmVballData = [
+    {
+      id: "1",
+      basketball: "/images/icon/floorball.png",
+      titletwo: "International Cup",
+      times: "Today 19:00",
+      updown: "/images/icon/updwon.png",
+      tShart: "/images/icon/t-shart.png",
+  
+      clubone: "/images/icon/argentina.png",
+      clubtwo: "/images/icon/germany.png",
+      clubNameOne: "Argentina",
+      clubNameTwo: "Germany",
+  
+      chart: "/images/icon/line-chart.png",
+      star: "/images/icon/star2.png",
+    },
+    {
+        id: "2",
+        basketball: "/images/icon/floorball.png",
+        titletwo: "India League",
+        times: "Today 19:00",
+        updown: "/images/icon/updwon.png",
+        tShart: "/images/icon/t-shart.png",
+    
+        clubone: "/images/icon/real-kashmir.png",
+        clubtwo: "/images/icon/inter-kashi.png",
+        clubNameOne: "Real Kashmir",
+        clubNameTwo: "Inter Kashi FC",
+    
+        chart: "/images/icon/line-chart.png",
+        star: "/images/icon/star2.png",
+    },
+    {
+        id: "3",
+        basketball: "/images/icon/floorball.png",
+        titletwo: "International Champions",
+        times: "Today 19:00",
+        updown: "/images/icon/updwon.png",
+        tShart: "/images/icon/t-shart.png",
+    
+        clubone: "/images/icon/incheon.png",
+        clubtwo: "/images/icon/yokohama.png",
+        clubNameOne: "Incheon United FC",
+        clubNameTwo: "Yokohama Marinos",
+    
+        chart: "/images/icon/line-chart.png",
+        star: "/images/icon/star2.png",
+      },
+      {
+        id: "4",
+        basketball: "/images/icon/floorball.png",
+        titletwo: "AFC Champions League",
+        times: "Today 19:00",
+        updown: "/images/icon/updwon.png",
+        tShart: "/images/icon/t-shart.png",
+    
+        clubone: "/images/icon/kawasaki.png",
+        clubtwo: "/images/icon/johor.png",
+        clubNameOne: "Kawasaki Frontale",
+        clubNameTwo: "Johor Darul Ta'zim",
+    
+        chart: "/images/icon/line-chart.png",
+        star: "/images/icon/star2.png",
+    },
+    {
+        id: "5",
+        basketball: "/images/icon/floorball.png",
+        titletwo: "AFC Champions League",
+        times: "Today 19:00",
+        updown: "/images/icon/updwon.png",
+        tShart: "/images/icon/t-shart.png",
+    
+        clubone: "/images/icon/bg-pathum.png",
+        clubtwo: "/images/icon/ulsan-hyundai.png",
+        clubNameOne: "BG Pathum United",
+        clubNameTwo: "Ulsan Hyundai FC",
+    
+        chart: "/images/icon/line-chart.png",
+        star: "/images/icon/star2.png",
+    },
+    {
+        id: "6",
+        basketball: "/images/icon/floorball.png",
+        titletwo: "UEFA Youth League",
+        times: "Today 19:00",
+        updown: "/images/icon/updwon.png",
+        tShart: "/images/icon/t-shart.png",
+    
+        clubone: "/images/icon/fc-shakhtar.png",
+        clubtwo: "/images/icon/cmn-footbal.png",
+        clubNameOne: "FC Shakhtar Donetsk",
+        clubNameTwo: "Royal Antwerp FC U19",
+    
+        chart: "/images/icon/line-chart.png",
+        star: "/images/icon/star2.png",
+    },
+    {
+        id: "7",
+        basketball: "/images/icon/floorball.png",
+        titletwo: "Champions League",
+        times: "Today 19:00",
+        updown: "/images/icon/updwon.png",
+        tShart: "/images/icon/t-shart.png",
+    
+        clubone: "/images/icon/shandong.png",
+        clubtwo: "/images/icon/kaya-fc.png",
+        clubNameOne: "Shandong Taishan FC",
+        clubNameTwo: "Kaya FC-Iloilo",
+    
+        chart: "/images/icon/line-chart.png",
+        star: "/images/icon/star2.png",
+    },
+    {
+        id: "8",
+        basketball: "/images/icon/floorball.png",
+        titletwo: "Champions League",
+        times: "Today 19:00",
+        updown: "/images/icon/updwon.png",
+        tShart: "/images/icon/t-shart.png",
+    
+        clubone: "/images/icon/france.png",
+        clubtwo: "/images/icon/mail.png",
+        clubNameOne: "France",
+        clubNameTwo: "Mali",
+    
+        chart: "/images/icon/line-chart.png",
+        star: "/images/icon/star2.png",
+    },
+    {
+        id: "9",
+        basketball: "/images/icon/floorball.png",
+        titletwo: "Saudi Arabia Division 1",
+        times: "Today 19:00",
+        updown: "/images/icon/updwon.png",
+        tShart: "/images/icon/t-shart.png",
+    
+        clubone: "/images/icon/al-faisaly.png",
+        clubtwo: "/images/icon/al-qaisumah.png",
+        clubNameOne: "Al Faisaly FC",
+        clubNameTwo: "Al Qaisumah",
+    
+        chart: "/images/icon/line-chart.png",
+        star: "/images/icon/star2.png",
+    },
+    {
+        id: "10",
+        basketball: "/images/icon/floorball.png",
+        titletwo: "Vietnam Cup",
+        times: "Today 19:00",
+        updown: "/images/icon/updwon.png",
+        tShart: "/images/icon/t-shart.png",
+    
+        clubone: "/images/icon/ho-chi-minh.png",
+        clubtwo: "/images/icon/b.binh.png",
+        clubNameOne: "Ho Chi Minh City FC",
+        clubNameTwo: "B. Bình Duong",
+    
+        chart: "/images/icon/line-chart.png",
+        star: "/images/icon/star2.png",
+    },
+    {
+        id: "11",
+        basketball: "/images/icon/floorball.png",
+        titletwo: "Saudi Arabia Division 1",
+        times: "Today 19:00",
+        updown: "/images/icon/updwon.png",
+        tShart: "/images/icon/t-shart.png",
+    
+        clubone: "/images/icon/al-ain.png",
+        clubtwo: "/images/icon/b.binh.png",
+        clubNameOne: "Al Ain FC (SA)",
+        clubNameTwo: "Al Arabi SC (SA)",
+    
+        chart: "/images/icon/line-chart.png",
+        star: "/images/icon/star2.png",
+    },
+    {
+        id: "12",
+        basketball: "/images/icon/floorball.png",
+        titletwo: "Vietnam Cup",
+        times: "Today 19:00",
+        updown: "/images/icon/updwon.png",
+        tShart: "/images/icon/t-shart.png",
+    
+        clubone: "/images/icon/ho-chi-minh.png",
+        clubtwo: "/images/icon/b.binh.png",
+        clubNameOne: "Ho Chi Minh City FC",
+        clubNameTwo: "B. Bình Duong",
+    
+        chart: "/images/icon/line-chart.png",
+        star: "/images/icon/star2.png",
+    },
+    {
+        id: "12",
+        basketball: "/images/icon/floorball.png",
+        titletwo: "Vietnam Cup",
+        times: "Today 19:00",
+        updown: "/images/icon/updwon.png",
+        tShart: "/images/icon/t-shart.png",
+    
+        clubone: "/images/icon/feyenoord.png",
+        clubtwo: "/images/icon/athletic2.png",
+        clubNameOne: "Feyenoord Rotterdam",
+        clubNameTwo: "Atletico Madrid",
+    
+        chart: "/images/icon/line-chart.png",
+        star: "/images/icon/star2.png",
+    },
+  ];

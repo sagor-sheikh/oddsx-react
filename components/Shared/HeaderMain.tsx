@@ -129,62 +129,62 @@ export default function HeaderMain() {
                         <button type="button" className="g1-color"><i className="ti ti-star"></i></button>
                     </li>
                     <li className="d-flex align-items-center justify-content-between px-3 py-2 rounded-3 gap-5">
-                        <Link href="tennis.html" className="d-flex align-items-center gap-2"><Image
+                        <Link href="/tennis" className="d-flex align-items-center gap-2"><Image
                                 width={16} height={16} src="/images/icon/soccer-icon.png" alt="icon" />Tennis</Link>
                         <button type="button" className="g1-color"><i className="ti ti-star"></i></button>
                     </li>
                     <li className="d-flex align-items-center justify-content-between px-3 py-2 rounded-3 gap-5">
-                        <Link href="basketball.html" className="d-flex align-items-center gap-2"><Image
+                        <Link href="/basketball" className="d-flex align-items-center gap-2"><Image
                                 width={16} height={16} src="/images/icon/basketball.png" alt="icon" />Basketball</Link>
                         <button type="button" className="g1-color"><i className="ti ti-star"></i></button>
                     </li>
                     <li className="d-flex align-items-center justify-content-between px-3 py-2 rounded-3 gap-5">
-                        <Link href="cricket.html" className="d-flex align-items-center gap-2"><Image
+                        <Link href="/cricket" className="d-flex align-items-center gap-2"><Image
                                 width={16} height={16} src="/images/icon/cricket.png" alt="icon" />Cricket</Link>
                         <button type="button" className="g1-color"><i className="ti ti-star"></i></button>
                     </li>
                     <li className="d-flex align-items-center justify-content-between px-3 py-2 rounded-3 gap-5">
-                        <Link href="ecricket.html" className="d-flex align-items-center gap-2"><Image
+                        <Link href="/ecricket" className="d-flex align-items-center gap-2"><Image
                                 width={16} height={16} src="/images/icon/ecricket.png" alt="icon" />eCricket</Link>
                         <button type="button" className="g1-color"><i className="ti ti-star"></i></button>
                     </li>
                     <li className="d-flex align-items-center justify-content-between px-3 py-2 rounded-3 gap-5">
-                        <Link href="american-football.html" className="d-flex align-items-center gap-2"><Image
+                        <Link href="/american-football" className="d-flex align-items-center gap-2"><Image
                                 width={16} height={16} src="/images/icon/america-football.png" alt="icon" />American Football</Link>
                         <button type="button" className="g1-color"><i className="ti ti-star"></i></button>
                     </li>
                     <li className="d-flex align-items-center justify-content-between px-3 py-2 rounded-3 gap-5">
-                        <Link href="ice-hockey.html" className="d-flex align-items-center gap-2"><Image
+                        <Link href="/ice-hockey" className="d-flex align-items-center gap-2"><Image
                                 width={16} height={16} src="/images/icon/ice-hockey.png" alt="icon" />Ice Hockey</Link>
                         <button type="button" className="g1-color"><i className="ti ti-star"></i></button>
                     </li>
                     <li className="d-flex align-items-center justify-content-between px-3 py-2 rounded-3 gap-5">
-                        <Link href="nba-2k.html" className="d-flex align-items-center gap-2"><Image
+                        <Link href="/nba-2k" className="d-flex align-items-center gap-2"><Image
                                 width={16} height={16} src="/images/icon/nba2k.png" alt="icon" />NBA 2K</Link>
                         <button type="button" className="g1-color"><i className="ti ti-star"></i></button>
                     </li>
                     <li className="d-flex align-items-center justify-content-between px-3 py-2 rounded-3 gap-5">
-                        <Link href="volleyball.html" className="d-flex align-items-center gap-2"><Image
+                        <Link href="/volleyball" className="d-flex align-items-center gap-2"><Image
                                 width={16} height={16} src="/images/icon/volleyball.png" alt="icon" />Volleyball</Link>
                         <button type="button" className="g1-color"><i className="ti ti-star"></i></button>
                     </li>
                     <li className="d-flex align-items-center justify-content-between px-3 py-2 rounded-3 gap-5">
-                        <Link href="fifa-volta.html" className="d-flex align-items-center gap-2"><Image
+                        <Link href="/fifa-volta" className="d-flex align-items-center gap-2"><Image
                                 width={16} height={16} src="/images/icon/fifa-volta.png" alt="icon" />FIFA: Volta</Link>
                         <button type="button" className="g1-color"><i className="ti ti-star"></i></button>
                     </li>
                     <li className="d-flex align-items-center justify-content-between px-3 py-2 rounded-3 gap-5">
-                        <Link href="penalty-shootout.html" className="d-flex align-items-center gap-2"><Image
+                        <Link href="/penalty-shootout" className="d-flex align-items-center gap-2"><Image
                                 width={16} height={16} src="/images/icon/penalty-shootout.png" alt="icon" />Penalty Shootout </Link>
                         <button type="button" className="g1-color"><i className="ti ti-star"></i></button>
                     </li>
                     <li className="d-flex align-items-center justify-content-between px-3 py-2 rounded-3 gap-5">
-                        <Link href="handball.html" className="d-flex align-items-center gap-2"><Image
+                        <Link href="/handball" className="d-flex align-items-center gap-2"><Image
                                 width={16} height={16} src="/images/icon/handball.png" alt="icon" />Handball</Link>
                         <button type="button" className="g1-color"><i className="ti ti-star"></i></button>
                     </li>
                     <li className="d-flex align-items-center justify-content-between px-3 py-2 rounded-3 gap-5">
-                        <Link href="table-tennis.html" className="d-flex align-items-center gap-2"><Image
+                        <Link href="/table-tennis" className="d-flex align-items-center gap-2"><Image
                                 width={16} height={16} src="/images/icon/table-tennis.png" alt="icon" />Table Tennis</Link>
                         <button type="button" className="g1-color"><i className="ti ti-star"></i></button>
                     </li>
@@ -193,87 +193,87 @@ export default function HeaderMain() {
                 <h5 className="mb-4 mb-md-6">Other sports</h5>
                 <ul className="aside_namelist d-flex flex-column gap-2 mb-15">
                     <li className="d-flex align-items-center justify-content-between px-3 py-2 rounded-3 gap-5">
-                        <Link href="kabaddi.html" className="d-flex align-items-center gap-2"><Image
+                        <Link href="/kabaddi" className="d-flex align-items-center gap-2"><Image
                                 width={16} height={16} src="/images/icon/kabaddi.png" alt="icon" />Kabaddi</Link>
                         <button type="button" className="g1-color"><i className="ti ti-star"></i></button>
                     </li>
                     <li className="d-flex align-items-center justify-content-between px-3 py-2 rounded-3 gap-5">
-                        <Link href="efighting.html" className="d-flex align-items-center gap-2"><Image
+                        <Link href="/efighting" className="d-flex align-items-center gap-2"><Image
                                 width={16} height={16} src="/images/icon/efighting.png" alt="icon" />eFighting</Link>
                         <button type="button" className="g1-color"><i className="ti ti-star"></i></button>
                     </li>
                     <li className="d-flex align-items-center justify-content-between px-3 py-2 rounded-3 gap-5">
-                        <Link href="erocket-league.html" className="d-flex align-items-center gap-2"><Image
+                        <Link href="/erocket-league" className="d-flex align-items-center gap-2"><Image
                                 width={16} height={16} src="/images/icon/erocket-league.png" alt="icon" />eRocket League</Link>
                         <button type="button" className="g1-color"><i className="ti ti-star"></i></button>
                     </li>
                     <li className="d-flex align-items-center justify-content-between px-3 py-2 rounded-3 gap-5">
-                        <Link href="aussie-rules.html" className="d-flex align-items-center gap-2"><Image
+                        <Link href="/aussie-rules" className="d-flex align-items-center gap-2"><Image
                                 width={16} height={16} src="/images/icon/aussie-rules.png" alt="icon" />Aussie Rules </Link>
                         <button type="button" className="g1-color"><i className="ti ti-star"></i></button>
                     </li>
                     <li className="d-flex align-items-center justify-content-between px-3 py-2 rounded-3 gap-5">
-                        <Link href="rugby.html" className="d-flex align-items-center gap-2"><Image
+                        <Link href="/rugby" className="d-flex align-items-center gap-2"><Image
                                 width={16} height={16} src="/images/icon/rugby.png" alt="icon" />Rugby </Link>
                         <button type="button" className="g1-color"><i className="ti ti-star"></i></button>
                     </li>
                     <li className="d-flex align-items-center justify-content-between px-3 py-2 rounded-3 gap-5">
-                        <Link href="eshooter.html" className="d-flex align-items-center gap-2"><Image
+                        <Link href="/eshooter" className="d-flex align-items-center gap-2"><Image
                                 width={16} height={16} src="/images/icon/eshooter.png" alt="icon" />eShooter</Link>
                         <button type="button" className="g1-color"><i className="ti ti-star"></i></button>
                     </li>
                     <li className="d-flex align-items-center justify-content-between px-3 py-2 rounded-3 gap-5">
-                        <Link href="boxing.html" className="d-flex align-items-center gap-2"><Image
+                        <Link href="/boxing" className="d-flex align-items-center gap-2"><Image
                                 width={16} height={16} src="/images/icon/boxing.png" alt="icon" />Boxing</Link>
                         <button type="button" className="g1-color"><i className="ti ti-star"></i></button>
                     </li>
                     <li className="d-flex align-items-center justify-content-between px-3 py-2 rounded-3 gap-5">
-                        <Link href="mma.html" className="d-flex align-items-center gap-2"><Image width={16} height={16} src="/images/icon/mma.png /"
+                        <Link href="/mma" className="d-flex align-items-center gap-2"><Image width={16} height={16} src="/images/icon/mma.png /"
                                 alt="icon" />MMA</Link>
                         <button type="button" className="g1-color"><i className="ti ti-star"></i></button>
                     </li>
                     <li className="d-flex align-items-center justify-content-between px-3 py-2 rounded-3 gap-5">
-                        <Link href="futsal.html" className="d-flex align-items-center gap-2"><Image
+                        <Link href="/futsal" className="d-flex align-items-center gap-2"><Image
                                 width={16} height={16} src="/images/icon/futsal.png" alt="icon" />Futsal</Link>
                         <button type="button" className="g1-color"><i className="ti ti-star"></i></button>
                     </li>
                     <li className="d-flex align-items-center justify-content-between px-3 py-2 rounded-3 gap-5">
-                        <Link href="bandy.html" className="d-flex align-items-center gap-2"><Image
+                        <Link href="/bandy" className="d-flex align-items-center gap-2"><Image
                                 width={16} height={16} src="/images/icon/bandy.png" alt="icon" />Bandy</Link>
                         <button type="button" className="g1-color"><i className="ti ti-star"></i></button>
                     </li>
                     <li className="d-flex align-items-center justify-content-between px-3 py-2 rounded-3 gap-5">
-                        <Link href="waterpolo.html" className="d-flex align-items-center gap-2"><Image
+                        <Link href="/waterpolo" className="d-flex align-items-center gap-2"><Image
                                 width={16} height={16} src="/images/icon/waterpolo.png" alt="icon" />Waterpolo</Link>
                         <button type="button" className="g1-color"><i className="ti ti-star"></i></button>
                     </li>
                     <li className="d-flex align-items-center justify-content-between px-3 py-2 rounded-3 gap-5">
-                        <Link href="floorball.html" className="d-flex align-items-center gap-2"><Image
+                        <Link href="/floorball" className="d-flex align-items-center gap-2"><Image
                                 width={16} height={16} src="/images/icon/floorball.png" alt="icon" />Floorball</Link>
                         <button type="button" className="g1-color"><i className="ti ti-star"></i></button>
                     </li>
                     <li className="d-flex align-items-center justify-content-between px-3 py-2 rounded-3 gap-5">
-                        <Link href="cycling.html" className="d-flex align-items-center gap-2"><Image
+                        <Link href="/cycling" className="d-flex align-items-center gap-2"><Image
                                 width={16} height={16} src="/images/icon/cycling.png" alt="icon" />Cycling</Link>
                         <button type="button" className="g1-color"><i className="ti ti-star"></i></button>
                     </li>
                     <li className="d-flex align-items-center justify-content-between px-3 py-2 rounded-3 gap-5">
-                        <Link href="specials.html" className="d-flex align-items-center gap-2"><Image
+                        <Link href="/specials" className="d-flex align-items-center gap-2"><Image
                                 width={16} height={16} src="/images/icon/specials.png" alt="icon" />Specials</Link>
                         <button type="button" className="g1-color"><i className="ti ti-star"></i></button>
                     </li>
                     <li className="d-flex align-items-center justify-content-between px-3 py-2 rounded-3 gap-5">
-                        <Link href="darts.html" className="d-flex align-items-center gap-2"><Image
+                        <Link href="/darts" className="d-flex align-items-center gap-2"><Image
                                 width={16} height={16} src="/images/icon/darts.png" alt="icon" />Darts </Link>
                         <button type="button" className="g1-color"><i className="ti ti-star"></i></button>
                     </li>
                     <li className="d-flex align-items-center justify-content-between px-3 py-2 rounded-3 gap-5">
-                        <Link href="squash.html" className="d-flex align-items-center gap-2"><Image
+                        <Link href="/squash" className="d-flex align-items-center gap-2"><Image
                                 width={16} height={16} src="/images/icon/squash.png" alt="icon" />Squash</Link>
                         <button type="button" className="g1-color"><i className="ti ti-star"></i></button>
                     </li>
                     <li className="d-flex align-items-center justify-content-between px-3 py-2 rounded-3 gap-5">
-                        <Link href="wrestling.html" className="d-flex align-items-center gap-2"><Image
+                        <Link href="/wrestling" className="d-flex align-items-center gap-2"><Image
                                 width={16} height={16} src="/images/icon/wrestling.png" alt="icon" />Wrestling</Link>
                         <button type="button" className="g1-color"><i className="ti ti-star"></i></button>
                     </li>

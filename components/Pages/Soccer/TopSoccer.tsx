@@ -1,16 +1,16 @@
 import Image from "next/image";
-import { soccerMatch, basketballMatch, iceHockeyMatch } from "@/public/data/tabOne";
+import { soccerMatch } from "@/public/data/tabOne";
 
-export default function AllSoccer() {
+export default function TopSoccer() {
   return (
-    <section className="top_matches pb-8 pb-md-10">
+    <section className="top_matches">
       <div className="container-fluid">
         <div className="row">
           <div className="col-12 gx-0 gx-sm-4">
             <div className="top_matches__main pt-20">
-              <div className="row w-100 mb-8 mb-md-10 pt-md-5">
+              <div className="row w-100 pt-md-5">
                 <div className="col-12">
-                  <div className="top_matches__title d-flex align-items-center gap-2 mb-4 mb-md-6">
+                  <div className="top_matches__title d-flex align-items-center gap-2 mb-4 mb-md-5">
                     <Image src="/images/icon/king.png" width={32}
                       height={32} alt="Icon" />
                     <h3>Top Soccer</h3>
