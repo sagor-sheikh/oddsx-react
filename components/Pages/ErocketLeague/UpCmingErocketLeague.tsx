@@ -1,7 +1,7 @@
 import Image from "next/image";
-import { nb2klast } from "@/public/data/tabThree";
+import { fifaVoltaLast } from "@/public/data/tabThree";
 
-export default function FifaVoltaLive() {
+export default function UpCmingErocketLeague() {
     return (
         <section className="top_matches">
             <div className="container-fluid">
@@ -16,13 +16,15 @@ export default function FifaVoltaLive() {
                                         <h3>Upcoming Events</h3>
                                     </div>
                                     <div className="top_matches__content">
-                                        {nb2klast.map(
+                                        {fifaVoltaLast.map(
                                             ({
                                                 id,
+                                                titletwo,
                                                 clubone,
                                                 clubtwo,
                                                 clubNameOne,
                                                 clubNameTwo,
+
                                             }) => (
                                                 <div className="top_matches__cmncard p2-bg p-4 rounded-3 mb-4" key={id}>
                                                     <div className="row gx-0 gy-xl-0 gy-7">
@@ -33,11 +35,12 @@ export default function FifaVoltaLive() {
                                                                     <div className="d-flex align-items-center gap-1">
                                                                         <Image src="/images/icon/fifa-volta.png" width={16} height={16}
                                                                             alt="Icon" /> <span
-                                                                                className="fs-eight cpoint">Men&apos;s World Cup</span>
+                                                                                className="fs-eight cpoint">{titletwo}</span>
                                                                     </div>
                                                                     <div
-                                                                        className="d-flex align-items-center gap-2 pe-xl-15 flex-nowrap flex-xl-wrap">
-                                                                        <span className="fs-eight cpoint">Today, 23:00</span>
+                                                                        className="d-flex align-items-center gap-4 pe-xl-15 flex-nowrap flex-xl-wrap">
+                                                                        <span className="fs-eight cpoint me-7">Today,
+                                                                            13:07</span>
                                                                     </div>
                                                                 </div>
                                                                 <div
@@ -45,24 +48,25 @@ export default function FifaVoltaLive() {
                                                                     <div>
                                                                         <div
                                                                             className="d-flex align-items-center gap-2 mb-4">
-                                                                            <Image className="rounded-5"
-                                                                                src={clubone} width={24} height={24}
-                                                                                alt="Icon" />
-                                                                            <span className="fs-seven cpoint">{clubNameOne}</span>
+                                                                            <Image src={clubone} width={24} height={24}
+                                                                                alt="Icon" /> <span
+                                                                                    className="fs-seven cpoint">{clubNameOne}</span>
                                                                         </div>
                                                                         <div className="d-flex align-items-center gap-2">
                                                                             <Image src={clubtwo} width={24} height={24}
-                                                                                alt="Icon" />
-                                                                            <span
-                                                                                className="fs-seven cpoint">{clubNameTwo}</span>
+                                                                                alt="Icon" /> <span
+                                                                                    className="fs-seven cpoint">{clubNameTwo}</span>
                                                                         </div>
                                                                     </div>
                                                                     <div
                                                                         className="d-flex align-items-center gap-4 position-relative pe-xl-15">
-
                                                                         <span
-                                                                            className="v-line lg d-none d-xl-block mb-15"></span>
-
+                                                                            className="v-line lg d-none d-xl-block"></span>
+                                                                        <div className="d-flex flex-column gap-5 mb-5">
+                                                                            <Image className="cpoint mt-5"
+                                                                                src="/images/icon/star2.png" width={16} height={16}
+                                                                                alt="Icon" />
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -74,15 +78,16 @@ export default function FifaVoltaLive() {
                                                                         <thead>
                                                                             <tr className="text-center">
                                                                                 <th scope="col"><span
-                                                                                    className="fs-eight">Winner</span>
+                                                                                    className="fs-eight">Winner (incl
+                                                                                    overtime)</span>
                                                                                 </th>
                                                                                 <th scope="col"><span
-                                                                                    className="fs-eight">Total
-                                                                                    runs</span>
+                                                                                    className="fs-eight">Handicap (incl
+                                                                                    overtime)</span>
                                                                                 </th>
                                                                                 <th scope="col"><span
-                                                                                    className="fs-eight">Sri Lanka
-                                                                                    total</span>
+                                                                                    className="fs-eight">Total (incl
+                                                                                    overtime)</span>
                                                                                 </th>
                                                                             </tr>
                                                                         </thead>
@@ -167,6 +172,7 @@ export default function FifaVoltaLive() {
                                                                                     </div>
                                                                                 </td>
                                                                             </tr>
+
                                                                         </tbody>
                                                                     </table>
                                                                 </div>
