@@ -228,7 +228,7 @@ export default function HeaderMain() {
                         <button type="button" className="g1-color"><i className="ti ti-star"></i></button>
                     </li>
                     <li className="d-flex align-items-center justify-content-between px-3 py-2 rounded-3 gap-5">
-                        <Link href="/mma" className="d-flex align-items-center gap-2"><Image width={16} height={16} src="/images/icon/mma.png /"
+                        <Link href="/mma" className="d-flex align-items-center gap-2"><Image width={16} height={16} src="/images/icon/mma.png/"
                                 alt="icon" />MMA</Link>
                         <button type="button" className="g1-color"><i className="ti ti-star"></i></button>
                     </li>

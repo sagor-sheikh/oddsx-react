@@ -208,7 +208,6 @@ export const upCmVballData = [
     star: "/images/icon/star2.png",
   },
 ];
-
 export const liveTableTannis = [
   {
     id: "1",
@@ -529,4 +528,143 @@ export const rugbyLeague = [
         clubNameTwo: "Stade Aurillacois",
       },
   ];
+
+export const mmaData = [
+    {
+      id: "1",
+      clubNameOne: "Amanda, Rayanne",
+      clubNameTwo: "Alencar, Ana Talita",
+  },
+  {
+    id: "2",
+    clubNameOne: "Santos, Luana",
+    clubNameTwo: "Egger, Stephanie",
+  },
+  {
+    id: "3",
+    clubNameOne: "Hernandez, Carlos",
+    clubNameTwo: "Taira, Tatsuro",
+  },
+  {
+    id: "4",
+    clubNameOne: "Amanda, Rayanne",
+    clubNameTwo: "Alencar, Ana Talita",
+  },
+  {
+    id: "5",
+    clubNameOne: "Amanda, Rayanne",
+    clubNameTwo: "Alencar, Ana Talita",
+  },
+];
   
+  export const poland = [
+    {
+      id: "1",
+      titletwo: "Poland Ekstraklasa",
+      clubNameOne: "Colomiers Rugby",
+      clubNameTwo: "AC Brive",
+    },
+    {
+      id: "2",
+      clubNameOne: "Uson Nevers",
+      clubNameTwo: "Stade Montois Rugby",
+    },
+    {
+      id: "3",
+      clubNameOne: "US Montalbanaise",
+      clubNameTwo: "Stade Aurillacois",
+    },
+    {
+      id: "4",
+      clubNameOne: "Colomiers Rugby",
+      clubNameTwo: "AC Brive",
+    },
+    {
+        id: "5",
+        clubNameOne: "Uson Nevers",
+        clubNameTwo: "Stade Montois Rugby",
+    },
+    {
+        id: "6",
+        clubNameOne: "US Montalbanaise",
+        clubNameTwo: "Stade Aurillacois",
+      },
+];
+  
+export const norwayData = [
+  {
+    id: "1",
+    clubNameOne: "Roea",
+    clubNameTwo: "AC Brive",
+  },
+  {
+    id: "2",
+    clubNameOne: "Colomiers Rugby",
+    clubNameTwo: "AC Brive",
+  },
+  {
+    id: "3",
+    clubNameOne: "Uson Nevers",
+    clubNameTwo: "Stade Montois Rugby",
+  },
+  {
+    id: "4",
+    clubNameOne: "US Montalbanaise",
+    clubNameTwo: "Stade Aurillacois",
+  },
+];
+
+export const russiaData = [
+  {
+    id: "1",
+    clubNameOne: "Bsf Bochnia",
+    clubNameTwo: "Przemysl",
+  },
+  {
+    id: "2",
+    clubNameOne: "AZS Uw Wilanow",
+    clubNameTwo: "Widzew Lodz",
+  },
+  {
+    id: "3",
+    clubNameOne: "Bsf Bochnia",
+    clubNameTwo: "Przemysl",
+  },
+  {
+    id: "4",
+    clubNameOne: "AZS Uw Wilanow",
+    clubNameTwo: "Widzew Lodz",
+  },
+];
+export const njpwData = [
+  {
+    id: "1",
+    clubNameOne: "Rinderer, Daniel",
+    clubNameTwo: "Mazaud, Corentin",
+  },
+  {
+    id: "2",
+    clubNameOne: "Zech, Damian",
+    clubNameTwo: "Turrini, Rafael",
+  },
+  {
+    id: "3",
+    clubNameOne: "Rinderer, Daniel",
+    clubNameTwo: "Mazaud, Corentin",
+  },
+  {
+    id: "4",
+    clubNameOne: "Zech, Damian",
+    clubNameTwo: "Turrini, Rafael",
+  },
+  {
+    id: "5",
+    clubNameOne: "Rinderer, Daniel",
+    clubNameTwo: "Mazaud, Corentin",
+  },
+  {
+    id: "6",
+    clubNameOne: "Zech, Damian",
+    clubNameTwo: "Turrini, Rafael",
+  },
+];
