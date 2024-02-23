@@ -1,19 +1,19 @@
 import Image from 'next/image';
 import { IconCalendarEvent, IconArrowBadgeUp } from "@tabler/icons-react";
 
-export default function Hungary() {
+export default function International() {
     return (
         <>
             <section className="top_matches">
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-12 gx-0 gx-sm-4">
-                            <div className="top_matches__main pt-20">
-                                <div className="row w-100 pt-md-5 mb-7 mb-md-0">
+                            <div className="top_matches__main">
+                                <div className="row w-100">
                                     <div className="col-12 pe-0">
                                         <div className="top_matches__title d-flex align-items-center gap-sm-2 mb-4 mb-md-5">
-                                            <IconCalendarEvent className="fs-three" height={31} width={31} />
-                                            <h3>Outrights Hungary</h3>
+                                        <IconCalendarEvent className="fs-three" height={31} width={31} />
+                                            <h3>Outrights International</h3>
                                             <IconArrowBadgeUp className="fs-four mt-1 cpoint" height={24} width={24} />
                                         </div>
                                         <div className="top_matches__content">

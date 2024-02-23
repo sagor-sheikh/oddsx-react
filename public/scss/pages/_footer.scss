@@ -86,6 +86,23 @@
 
 // Footer section ends
 // Fixed footer starts
+.expanded2{
+    transform: translateY(91.5%);
+    transition: 0.5s linear;
+    .fixediconstyle{
+        transform: rotate(180deg);
+        transition: 0.5s linear;
+    }
+}
+.expandedtexta{
+    transform: translateY(0%);
+    transition: 0.5s linear;
+    .fixediconstyle{
+        transform: rotate(0deg);
+        transition: 0.5s linear;
+    }
+}
+
 .fixed_footer {
     position: fixed;
     right: 7%;
@@ -93,8 +110,8 @@
     bottom: 0;
     width: 300px;
     z-index: 9999;
-    transform: translateY(91.5%);
-    transition: 0.5s linear;
+    // transform: translateY(91.5%);
+    // transition: 0.5s linear;
 
     @include maxQuery(350) {
         right: 3%;

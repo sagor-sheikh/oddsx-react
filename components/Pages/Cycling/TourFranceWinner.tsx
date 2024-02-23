@@ -1,8 +1,6 @@
-import React from 'react'
 import Image from 'next/image';
 
-
-export default function Internationa() {
+export default function TourFranceWinner() {
     return (
         <>
             <section className="top_matches">
@@ -12,19 +10,14 @@ export default function Internationa() {
                             <div className="top_matches__main">
                                 <div className="row w-100">
                                     <div className="col-12 pe-0">
-                                        <div className="top_matches__title d-flex align-items-center gap-sm-2 mb-4 mb-md-5">
-                                            <i className="ti ti-calendar-event fs-three"></i>
-                                            <h3>Outrights International</h3>
-                                            <i className="ti ti-arrow-badge-up fs-four mt-1 cpoint"></i>
-                                        </div>
                                         <div className="top_matches__content">
                                             <div className="top_matches__winnercard p-4 p-sm-5 p-md-6 rounded-3 p2-bg">
                                                 <div
                                                     className="top_matches__winnercard-title d-flex align-items-center gap-2 mb-5 mb-md-6">
-                                                    <Image src="/images/icon/outrights-hugary.png" width={30} height={30} alt="Icon" />
+                                                    <Image src="/images/icon/cycling-big.png" width={30} height={30} alt="Icon" />
                                                     <div className="top_matches__winnercard-obi">
-                                                        <span className="mb-3">Jan 1, 2024, 10:00</span>
-                                                        <h5>OB I - Winner</h5>
+                                                        <span className="mb-3 n4-color">Jan 1, 2024, 10:00</span>
+                                                        <h5>Tour de France - Winner</h5>
                                                     </div>
                                                 </div>
                                                 <div className="row gy-2">
@@ -32,18 +25,18 @@ export default function Internationa() {
                                                         <div className="top_matches__winnercard-sctn w-100">
                                                             <div
                                                                 className="top_matches__winnercard-singe d-flex align-items-center justify-content-between n11-bg rounded-2 py-2 px-3 mb-2">
-                                                                <span>rencvarosi TC Waterpolo</span>
+                                                                <span>Vingegaard, Jonas</span>
                                                                 <span>4.5</span>
                                                             </div>
                                                             <div
                                                                 className="top_matches__winnercard-singe d-flex align-items-center justify-content-between n11-bg rounded-2 py-2 px-3 mb-2">
-                                                                <span>OSC Budapest</span>
+                                                                <span>Evenepoel, Remco</span>
                                                                 <span>7.5</span>
                                                             </div>
                                                             <div
                                                                 className="top_matches__winnercard-singe d-flex align-items-center justify-content-between n11-bg rounded-2 py-2 px-3">
-                                                                <span>Kaposvari VK</span>
-                                                                <span>1000.0</span>
+                                                                <span>Yates, Adam</span>
+                                                                <span>19.0</span>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -51,18 +44,18 @@ export default function Internationa() {
                                                         <div className="top_matches__winnercard-sctn w-100">
                                                             <div
                                                                 className="top_matches__winnercard-singe d-flex align-items-center justify-content-between n11-bg rounded-2 py-2 px-3 mb-2">
-                                                                <span>Van Aert, Wout</span>
+                                                                <span>Pogacar, Tadej</span>
                                                                 <span>6.5</span>
                                                             </div>
                                                             <div
                                                                 className="top_matches__winnercard-singe d-flex align-items-center justify-content-between n11-bg rounded-2 py-2 px-3 mb-2">
-                                                                <span>Mohoric, Matej</span>
+                                                                <span>Ayuso Pesquera, Juan</span>
                                                                 <span>8.0</span>
                                                             </div>
                                                             <div
-                                                                className="top_matches__winnercard-singe d-flex align-items-center justify-content-between n11-bg rounded-2 py-2 px-3 opacity-50">
-                                                                <span>PVSK Fuszert</span>
-                                                                <span>-</span>
+                                                                className="top_matches__winnercard-singe d-flex align-items-center justify-content-between n11-bg rounded-2 py-2 px-3">
+                                                                <span>Rodriguez Cano, Carlos</span>
+                                                                <span>23.0</span>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -70,18 +63,18 @@ export default function Internationa() {
                                                         <div className="top_matches__winnercard-sctn w-100">
                                                             <div
                                                                 className="top_matches__winnercard-singe d-flex align-items-center justify-content-between n11-bg rounded-2 py-2 px-3 mb-2">
-                                                                <span>Ganna, Filippo</span>
+                                                                <span>Roglic, Primoz</span>
                                                                 <span>6.5</span>
                                                             </div>
                                                             <div
                                                                 className="top_matches__winnercard-singe d-flex align-items-center justify-content-between n11-bg rounded-2 py-2 px-3 mb-2">
-                                                                <span>Pedersen, Mads</span>
+                                                                <span>Kuss, Sepp</span>
                                                                 <span>8.0</span>
                                                             </div>
                                                             <div
-                                                                className="top_matches__winnercard-singe d-flex align-items-center justify-content-between n11-bg rounded-2 py-2 px-3 opacity-50">
-                                                                <span>UVSE</span>
-                                                                <span>-</span>
+                                                                className="top_matches__winnercard-singe d-flex align-items-center justify-content-between n11-bg rounded-2 py-2 px-3">
+                                                                <span>Hindley, Jai</span>
+                                                                <span>23.0</span>
                                                             </div>
                                                         </div>
                                                     </div>
