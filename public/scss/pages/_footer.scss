@@ -207,7 +207,7 @@
             width: 33.333%;
             position: absolute;
             bottom: 0;
-            background-color: rgb(var(--n11));
+            // background-color: rgb(var(--n11));
             transition: .3s;
             z-index: -1;
         }
@@ -216,8 +216,8 @@
             flex: 1;
             text-align: center;
             transition: .3s;
-            border-radius: 8px !important;
-            border-radius: 8px;
+            // border-radius: 8px !important;
+            // border-radius: 8px;
         }
 
         .tab-toggle {
@@ -279,9 +279,9 @@
                 }
             }
 
-            .active {
-                background: rgba(53, 195, 30, 0.50);
-            }
+            // .active {
+            //     background: rgba(53, 195, 30, 0.50);
+            // }
         }
 
         &-bottom {
