@@ -1,4 +1,7 @@
 // Header One
+.massagearashow{
+    transform: translateX(120%);
+}
 .header-section2 {
     width: 100%;
     position: fixed;
@@ -262,7 +265,6 @@
         position: absolute;
         top: 150%;
         right: 0px !important;
-        transform: translateX(120%);
         // opacity: 0;
         transition: 0.8s;
         // visibility: hidden;
