@@ -4,6 +4,7 @@ import Link from 'next/link'
 import React from 'react'
 
 export default function HeaderMain() {
+
   return (
     <>
     <header className="header-section2 header-section">
@@ -76,8 +77,8 @@ export default function HeaderMain() {
                         </div>
                     </div>
                 </div>
-                <Link href="login.html" className="cmn-btn second-alt px-xxl-11 rounded-2 me-5 me-lg-0 d-none d-sm-block">Log In</Link>
-                <Link href="create-acount.html" className="cmn-btn d-none px-xxl-11 d-sm-block d-lg-none d-xl-block">Sign Up</Link>
+                <Link href="/login" className="cmn-btn second-alt px-xxl-11 rounded-2 me-5 me-lg-0 d-none d-sm-block">Log In</Link>
+                <Link href="/create-acount" className="cmn-btn d-none px-xxl-11 d-sm-block d-lg-none d-xl-block">Sign Up</Link>
             </div>
             <button className="navbar-toggler mt-1 mt-sm-2 mt-lg-0" type="button" data-bs-toggle="collapse" aria-label="Navbar Toggler"
                 data-bs-target="#navbar-content" aria-expanded="true" id="nav-icon3">
