@@ -2,10 +2,20 @@
 import Image from "next/image";
 import { Tab } from "@headlessui/react";
 import { tabOne, soccerMatch, basketballMatch, iceHockeyMatch } from "@/public/data/tabOne";
+import { useState } from "react";
 
 export default function HeroMatches() {
+  const [activeItem, setActiveItem] = useState(tabOne[0]);
 
-
+  const handleClick = (itemName: any) => {
+    setActiveItem(itemName);
+  };
+  const getItemStyle = (itemName: any) => {
+    return {
+      border: `1px solid ${activeItem === itemName ? '#35C31E' : '#2C3655'}`,
+    };
+  };
+  
   return (
     <>
       <section className="top_matches">
@@ -28,16 +38,17 @@ export default function HeroMatches() {
                       <div className="singletab">
                         <Tab.Group>
                           <Tab.List className="tablinks d-flex align-items-center gap-4 flex-wrap mb-5 mb-md-6">
-                            {tabOne.map(({ imgSrc, buttonName }) => (
-                              <Tab className="nav-links" key={buttonName}>
-                                <div className="tablink clickable-active2 d-flex align-items-center gap-2 py-2 px-4 p3-bg rounded-17">
+                            {tabOne.map((tabOneSingle) => (
+                              <Tab className="nav-links" key={tabOneSingle.buttonName}>
+                                <div onClick={() => handleClick(tabOneSingle)}
+                                  style={getItemStyle(tabOneSingle)} className="tablink clickable-active2 d-flex align-items-center gap-2 py-2 px-4 p3-bg rounded-17">
                                   <Image
                                     width={16}
                                     height={16}
-                                    src={imgSrc}
+                                    src={tabOneSingle.imgSrc}
                                     alt="Icon"
                                   />{" "}
-                                  {buttonName}
+                                  {tabOneSingle.buttonName}
                                 </div>
                               </Tab>
                             ))}
@@ -72,7 +83,7 @@ export default function HeroMatches() {
                                         <div className="top_matches__clubname">
                                           <div className="top_matches__cmncard-right d-flex align-items-start justify-content-between pb-4 mb-4 gap-4 ">
                                             <div className="d-flex align-items-center gap-1">
-                                              <Image                                                src={football}
+                                              <Image src={football}
                                                 width={16}
                                                 height={16}
                                                 alt="Icon"
@@ -3543,7 +3554,7 @@ export default function HeroMatches() {
                                         <div
                                           className="top_matches__cmncard-right d-flex align-items-start justify-content-between pb-4 mb-4 gap-4 ">
                                           <div className="d-flex align-items-center gap-1">
-                                            <Image src="/images/icon/fifa-volta.png" width={16} height={16} 
+                                            <Image src="/images/icon/fifa-volta.png" width={16} height={16}
                                               alt="Icon" /> <span
                                                 className="fs-eight cpoint">Turkiye Super
                                               Lig</span>
@@ -3571,7 +3582,7 @@ export default function HeroMatches() {
                                                 FC</span>
                                             </div>
                                             <div className="d-flex align-items-center gap-2">
-                                              <Image src="/images/icon/cmn-footbal.png" width={24} height={24} 
+                                              <Image src="/images/icon/cmn-footbal.png" width={24} height={24}
                                                 alt="Icon" /> <span
                                                   className="fs-seven cpoint">Escorpiones
                                                 FC</span>
@@ -3710,7 +3721,7 @@ export default function HeroMatches() {
                                         <div
                                           className="top_matches__cmncard-right d-flex align-items-start justify-content-between pb-4 mb-4 gap-4 ">
                                           <div className="d-flex align-items-center gap-1">
-                                            <Image src="/images/icon/fifa-volta.png" width={16} height={16} 
+                                            <Image src="/images/icon/fifa-volta.png" width={16} height={16}
                                               alt="Icon" /> <span
                                                 className="fs-eight cpoint">Belarus League
                                               A</span>

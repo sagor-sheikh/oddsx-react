@@ -5,7 +5,16 @@ import { tabThree, soccerUpComing, tennisUpCE, basketballUpCE, eCricketUpCE, amr
 import { useState } from 'react';
 
 export default function UpComingEvents() {
-    const [isActive, setIsActive] = useState(false);
+    const [activeItem, setActiveItem] = useState(tabThree[0]);
+
+    const handleClick = (itemName: any) => {
+        setActiveItem(itemName);
+    };
+    const getItemStyle = (itemName: any) => {
+        return {
+            border: `1px solid ${activeItem === itemName ? '#35C31E' : '#2C3655'}`,
+        };
+    };
 
     return (
         <>
@@ -29,16 +38,17 @@ export default function UpComingEvents() {
                                             <div className="singletab">
                                                 <Tab.Group>
                                                     <Tab.List className="tablinks d-flex align-items-center gap-4 flex-wrap mb-5 mb-md-6">
-                                                        {tabThree.map(({ imgSrc, buttonName }) => (
-                                                            <Tab className="nav-links" key={buttonName}>
-                                                                <div className={`tablink clickable-active2 d-flex align-items-center gap-2 py-2 px-4 p3-bg rounded-17 ${isActive ? 'active' : ''}`}>
+                                                        {tabThree.map((tabThreeSingle) => (
+                                                            <Tab className="nav-links" key={tabThreeSingle.buttonName}>
+                                                                <div onClick={() => handleClick(tabThreeSingle)}
+                                                                    style={getItemStyle(tabThreeSingle)} className="tablink clickable-active2 d-flex align-items-center gap-2 py-2 px-4 p3-bg rounded-17">
                                                                     <Image
                                                                         width={16}
                                                                         height={16}
-                                                                        src={imgSrc}
+                                                                        src={tabThreeSingle.imgSrc}
                                                                         alt="Icon"
                                                                     />{" "}
-                                                                    {buttonName}
+                                                                    {tabThreeSingle.buttonName}
                                                                 </div>
                                                             </Tab>
                                                         ))}

@@ -1,5 +1,5 @@
 "use client"
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useState } from "react";
 import Link from 'next/link';
 import Image from 'next/image'
@@ -7,11 +7,30 @@ import { IconX, IconArrowBadgeUpFilled, IconTrash, IconSettings } from "@tabler/
 import { Tab } from '@headlessui/react'
 
 export default function FooterCard() {
+
+    // const [isCardExpanded, setIsCardExpanded] = useState(false);
+    // const toggleCard = () => {
+    //     setIsCardExpanded(!isCardExpanded);
+    //     console.log("click");
+    // };
     const [isCardExpanded, setIsCardExpanded] = useState(false);
+
     const toggleCard = () => {
-        setIsCardExpanded(!isCardExpanded);
-        console.log("click");
+      setIsCardExpanded(!isCardExpanded);
     };
+  
+    useEffect(() => {
+      const handleClickOutside = (event: any) => {
+        if (isCardExpanded && !event.target.closest(".footfixedbtn")) {
+          setIsCardExpanded(false);
+        }
+      };
+      document.body.addEventListener("click", handleClickOutside);
+      return () => {
+        document.body.removeEventListener("click", handleClickOutside);
+      };
+    }, [isCardExpanded]);
+
 
     const items = ['Single', 'Multiple', 'System']
     const [activeItem, setActiveItem] = useState(items[0]);

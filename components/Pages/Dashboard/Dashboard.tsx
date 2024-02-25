@@ -20,11 +20,6 @@ export default function Dashboard() {
         };
     };
 
-    const options = [
-        { value: 'chocolate', label: 'Chocolate' },
-        { value: 'strawberry', label: 'Strawberry' },
-        { value: 'vanilla', label: 'Vanilla' }
-    ]
     return (
         <>
             <section className="pay_method pb-120">

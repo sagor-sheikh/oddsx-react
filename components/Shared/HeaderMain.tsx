@@ -4,7 +4,7 @@ import Link from 'next/link'
 import React from 'react'
 
 export default function HeaderMain() {
-
+    
   return (
     <>
     <header className="header-section2 header-section">
