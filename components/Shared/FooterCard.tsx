@@ -21,7 +21,7 @@ export default function FooterCard() {
   
     useEffect(() => {
       const handleClickOutside = (event: any) => {
-        if (isCardExpanded && !event.target.closest(".footfixedbtn")) {
+        if (isCardExpanded && !event.target.closest(".fixed_footer")) {
           setIsCardExpanded(false);
         }
       };

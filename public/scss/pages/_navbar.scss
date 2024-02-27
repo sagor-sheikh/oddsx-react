@@ -2,6 +2,7 @@
 .massagearashow{
     transform: translateX(120%);
 }
+
 .header-section2 {
     width: 100%;
     position: fixed;
@@ -564,14 +565,14 @@
                 .active{
                     border-bottom: 1px solid rgba(var(--g1), 1);
                 }
-                a {
+                Link {
                     &:hover {
                         border-bottom: 1px solid rgba(var(--n8), 1);
                     }
                 }
             }
 
-            a,
+            Link,
             button {
                 text-transform: capitalize;
                 font-weight: 500;
@@ -599,7 +600,7 @@
                 background-color: rgba(var(--p2), 1);
                 box-shadow: var(--shadow-lg);
 
-                a,
+                Link,
                 button {
                     display: initial;
 
@@ -646,7 +647,7 @@
             transform: translateY(50px) translateX(0);
 
             button,
-            a {
+            Link {
                 padding: 0;
                 margin: 0 10px;
             }
@@ -758,7 +759,7 @@
                 margin-bottom: 10px;
                 overflow-x: hidden;
 
-                a,
+                Link,
                 button {
                     justify-content: start;
                 }
@@ -939,7 +940,30 @@
         }
     }
 }
-
+.navbar-toggler-two{
+    @include maxQuery(991) {
+        top: 30% !important;
+        right: -60px !important;
+    }
+    @include maxQuery(768) {
+        top: 30% !important;
+        right: -35px !important;
+    }
+}
+.langu{
+    @include maxQuery(991){
+        margin-right: 12px;
+    }
+    @include maxQuery(575){
+        &__head{
+            position: absolute !important;
+            left: 15px !important;
+        }
+    }
+    &__items{
+        position: absolute;
+    }
+}
 .middle-iconfixed {
     top: 20% !important;
     z-index: 5 !important;
