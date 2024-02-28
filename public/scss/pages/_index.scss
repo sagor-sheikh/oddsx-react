@@ -61,6 +61,9 @@
         background-color: rgb(var(--g1));
     }
 }
+.outstles{
+    outline: none !important;
+}
 .top_matches {
     &__main {
         margin: 30px 0 0 303px;
@@ -96,7 +99,9 @@
         .tablink {
             transition: 0.5s linear;
             border: 1px solid rgb(var(--p3));
-
+            &:focus-visible{
+                outline: none !important;
+            }
             &:hover {
                 border: 1px solid rgb(var(--g1));
             }
@@ -104,7 +109,7 @@
 
         .nav-links {
             &:focus-visible{
-                outline: none;
+                outline: none !important;
             //   outline-style: solid;
             //   outline-color: rgb(var(--g1));
             //   border-radius: 16px;

@@ -318,13 +318,7 @@ export default function LiveMatches() {
                                         <table className="table mb-0 pb-0">
                                           <thead>
                                             <tr className="text-center">
-                                              <th scope="col">
-                                                {/* <span className="fs-eight">1x2</span> */}
-                                              </th>
-                                              <th scope="col">
-                                                {/* <span className="fs-eight">Double
-                                                                                        chance</span> */}
-                                              </th>
+
                                               <th scope="col">
                                                 <span className="fs-eight"></span>
                                               </th>

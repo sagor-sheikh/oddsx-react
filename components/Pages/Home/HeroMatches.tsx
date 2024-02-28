@@ -47,7 +47,7 @@ export default function HeroMatches() {
                                     height={16}
                                     src={tabOneSingle.imgSrc}
                                     alt="Icon"
-                                  />{" "}
+                                  />
                                   {tabOneSingle.buttonName}
                                 </div>
                               </Tab>
@@ -87,7 +87,7 @@ export default function HeroMatches() {
                                                 width={16}
                                                 height={16}
                                                 alt="Icon"
-                                              />{" "}
+                                              />
                                               <span className="fs-eight cpoint">
                                                 {titletwo}
                                               </span>
@@ -120,7 +120,7 @@ export default function HeroMatches() {
                                                   width={24}
                                                   height={24}
                                                   alt="Icon"
-                                                />{" "}
+                                                />
                                                 <span className="fs-seven cpoint">
                                                   {clubNameOne}
                                                 </span>
@@ -131,7 +131,7 @@ export default function HeroMatches() {
                                                   width={24}
                                                   height={24}
                                                   alt="Icon"
-                                                />{" "}
+                                                />
                                                 <span className="fs-seven cpoint">
                                                   {clubNameTwo}
                                                 </span>
@@ -313,7 +313,7 @@ export default function HeroMatches() {
                                                 width={16}
                                                 height={16}
                                                 alt="Icon"
-                                              />{" "}
+                                              />
                                               <span className="fs-eight cpoint">
                                                 {titletwo}
                                               </span>
@@ -332,7 +332,7 @@ export default function HeroMatches() {
                                                   width={24}
                                                   height={24}
                                                   alt="Icon"
-                                                />{" "}
+                                                />
                                                 <span className="fs-seven cpoint">
                                                   {clubNameOne}
                                                 </span>
@@ -343,7 +343,7 @@ export default function HeroMatches() {
                                                   width={24}
                                                   height={24}
                                                   alt="Icon"
-                                                />{" "}
+                                                />
                                                 <span className="fs-seven cpoint">
                                                   {clubNameTwo}
                                                 </span>
@@ -502,7 +502,7 @@ export default function HeroMatches() {
                                                 width={16}
                                                 height={16}
                                                 alt="Icon"
-                                              />{" "}
+                                              />
                                               <span className="fs-eight cpoint">
                                                 {titletwo}
                                               </span>
@@ -535,7 +535,7 @@ export default function HeroMatches() {
                                                   width={24}
                                                   height={24}
                                                   alt="Icon"
-                                                />{" "}
+                                                />
                                                 <span className="fs-seven cpoint">
                                                   {clubNameOne}
                                                 </span>
@@ -546,7 +546,7 @@ export default function HeroMatches() {
                                                   width={24}
                                                   height={24}
                                                   alt="Icon"
-                                                />{" "}
+                                                />
                                                 <span className="fs-seven cpoint">
                                                   {clubNameTwo}
                                                 </span>
@@ -705,7 +705,7 @@ export default function HeroMatches() {
                                             <Image
                                               src="/images/icon/cricket.png" width={16} height={16}
                                               alt="Icon"
-                                            />{" "}
+                                            />
                                             <span className="fs-eight cpoint">
                                               International Euroleague
                                             </span>
@@ -731,7 +731,7 @@ export default function HeroMatches() {
                                                 className="rounded-5"
                                                 src="/images/icon/queensland.png" width={24} height={24}
                                                 alt="Icon"
-                                              />{" "}
+                                              />
                                               <span className="fs-seven cpoint">
                                                 Queensland Bulls
                                               </span>
@@ -741,7 +741,7 @@ export default function HeroMatches() {
                                                 className="rounded-5"
                                                 src="/images/icon/western-australia.png" width={24} height={24}
                                                 alt="Icon"
-                                              />{" "}
+                                              />
                                               <span className="fs-seven cpoint">
                                                 Western Australia
                                               </span>
@@ -872,7 +872,7 @@ export default function HeroMatches() {
                                             <Image
                                               src="/images/icon/cricket.png" width={16} height={16}
                                               alt="Icon"
-                                            />{" "}
+                                            />
                                             <span className="fs-eight cpoint">
                                               Bangladesh vs NewZealand
                                             </span>
@@ -900,7 +900,7 @@ export default function HeroMatches() {
                                                 className="rounded-5"
                                                 src="/images/icon/Bangladesh.png" width={24} height={24}
                                                 alt="Icon"
-                                              />{" "}
+                                              />
                                               <span className="fs-seven cpoint">
                                                 Bangladesh
                                               </span>
@@ -909,7 +909,7 @@ export default function HeroMatches() {
                                               <Image
                                                 src="/images/icon/new-zealand.png" width={24} height={24}
                                                 alt="Icon"
-                                              />{" "}
+                                              />
                                               <span className="fs-seven cpoint">
                                                 New Zealand
                                               </span>
@@ -1062,7 +1062,7 @@ export default function HeroMatches() {
                                             <Image
                                               src="/images/icon/cricket.png" width={16} height={16}
                                               alt="Icon"
-                                            />{" "}
+                                            />
                                             <span className="fs-eight cpoint">
                                               International Euroleague
                                             </span>
@@ -1088,7 +1088,7 @@ export default function HeroMatches() {
                                                 className="rounded-5"
                                                 src="/images/icon/queensland.png" width={24} height={24}
                                                 alt="Icon"
-                                              />{" "}
+                                              />
                                               <span className="fs-seven cpoint">
                                                 Queensland Bulls
                                               </span>
@@ -1098,7 +1098,7 @@ export default function HeroMatches() {
                                                 className="rounded-5"
                                                 src="/images/icon/western-australia.png" width={24} height={24}
                                                 alt="Icon"
-                                              />{" "}
+                                              />
                                               <span className="fs-seven cpoint">
                                                 Western Australia
                                               </span>
@@ -1229,7 +1229,7 @@ export default function HeroMatches() {
                                             <Image
                                               src="/images/icon/cricket.png" width={16} height={16}
                                               alt="Icon"
-                                            />{" "}
+                                            />
                                             <span className="fs-eight cpoint">
                                               India Vijay Hazare Trophy
                                             </span>
@@ -1255,7 +1255,7 @@ export default function HeroMatches() {
                                                 className="rounded-5"
                                                 src="/images/icon/auckland-aces.png" width={24} height={24}
                                                 alt="Icon"
-                                              />{" "}
+                                              />
                                               <span className="fs-seven cpoint">
                                                 Auckland Aces
                                               </span>
@@ -1265,7 +1265,7 @@ export default function HeroMatches() {
                                                 className="rounded-5"
                                                 src="/images/icon/otago-volts.png" width={24} height={24}
                                                 alt="Icon"
-                                              />{" "}
+                                              />
                                               <span className="fs-seven cpoint">
                                                 Otago Volts
                                               </span>
@@ -1346,7 +1346,7 @@ export default function HeroMatches() {
                                             <Image
                                               src="/images/icon/cricket.png" width={16} height={16}
                                               alt="Icon"
-                                            />{" "}
+                                            />
                                             <span className="fs-eight cpoint">
                                               T20 World Cup
                                             </span>
@@ -1369,7 +1369,7 @@ export default function HeroMatches() {
                                               <Image
                                                 src="/images/icon/nigeria.png" width={24} height={24}
                                                 alt="Icon"
-                                              />{" "}
+                                              />
                                               <span className="fs-seven cpoint">
                                                 Nigeria
                                               </span>
@@ -1378,7 +1378,7 @@ export default function HeroMatches() {
                                               <Image
                                                 src="/images/icon/zimbabwe.png" width={24} height={24}
                                                 alt="Icon"
-                                              />{" "}
+                                              />
                                               <span className="fs-seven cpoint">
                                                 Zimbabwe
                                               </span>
@@ -1528,7 +1528,7 @@ export default function HeroMatches() {
                                             <Image
                                               src="/images/icon/cricket.png" width={16} height={16}
                                               alt="Icon"
-                                            />{" "}
+                                            />
                                             <span className="fs-eight cpoint">
                                               India Vijay Hazare Trophy
                                             </span>
@@ -1554,7 +1554,7 @@ export default function HeroMatches() {
                                                 className="rounded-5"
                                                 src="/images/icon/auckland-aces.png" width={24} height={24}
                                                 alt="Icon"
-                                              />{" "}
+                                              />
                                               <span className="fs-seven cpoint">
                                                 Auckland Aces
                                               </span>
@@ -1564,7 +1564,7 @@ export default function HeroMatches() {
                                                 className="rounded-5"
                                                 src="/images/icon/otago-volts.png" width={24} height={24}
                                                 alt="Icon"
-                                              />{" "}
+                                              />
                                               <span className="fs-seven cpoint">
                                                 Otago Volts
                                               </span>
@@ -1645,7 +1645,7 @@ export default function HeroMatches() {
                                             <Image
                                               src="/images/icon/cricket.png" width={16} height={16}
                                               alt="Icon"
-                                            />{" "}
+                                            />
                                             <span className="fs-eight cpoint">
                                               T20 World Cup
                                             </span>
@@ -1668,7 +1668,7 @@ export default function HeroMatches() {
                                               <Image
                                                 src="/images/icon/nigeria.png" width={24} height={24}
                                                 alt="Icon"
-                                              />{" "}
+                                              />
                                               <span className="fs-seven cpoint">
                                                 Nigeria
                                               </span>
@@ -1677,7 +1677,7 @@ export default function HeroMatches() {
                                               <Image
                                                 src="/images/icon/zimbabwe.png" width={24} height={24}
                                                 alt="Icon"
-                                              />{" "}
+                                              />
                                               <span className="fs-seven cpoint">
                                                 Zimbabwe
                                               </span>
@@ -1827,7 +1827,7 @@ export default function HeroMatches() {
                                             <Image
                                               src="/images/icon/cricket.png" width={16} height={16}
                                               alt="Icon"
-                                            />{" "}
+                                            />
                                             <span className="fs-eight cpoint">
                                               T20 World Cup
                                             </span>
@@ -1850,7 +1850,7 @@ export default function HeroMatches() {
                                               <Image
                                                 src="/images/icon/nigeria.png" width={24} height={24}
                                                 alt="Icon"
-                                              />{" "}
+                                              />
                                               <span className="fs-seven cpoint">
                                                 Nigeria
                                               </span>
@@ -1859,7 +1859,7 @@ export default function HeroMatches() {
                                               <Image
                                                 src="/images/icon/zimbabwe.png" width={24} height={24}
                                                 alt="Icon"
-                                              />{" "}
+                                              />
                                               <span className="fs-seven cpoint">
                                                 Zimbabwe
                                               </span>
@@ -2009,7 +2009,7 @@ export default function HeroMatches() {
                                             <Image
                                               src="/images/icon/cricket.png" width={16} height={16}
                                               alt="Icon"
-                                            />{" "}
+                                            />
                                             <span className="fs-eight cpoint">
                                               T20 World Cup
                                             </span>
@@ -2032,7 +2032,7 @@ export default function HeroMatches() {
                                               <Image
                                                 src="/images/icon/nigeria.png" width={24} height={24}
                                                 alt="Icon"
-                                              />{" "}
+                                              />
                                               <span className="fs-seven cpoint">
                                                 Nigeria
                                               </span>
@@ -2041,7 +2041,7 @@ export default function HeroMatches() {
                                               <Image
                                                 src="/images/icon/zimbabwe.png" width={24} height={24}
                                                 alt="Icon"
-                                              />{" "}
+                                              />
                                               <span className="fs-seven cpoint">
                                                 Zimbabwe
                                               </span>
@@ -2191,7 +2191,7 @@ export default function HeroMatches() {
                                             <Image
                                               src="/images/icon/cricket.png" width={16} height={16}
                                               alt="Icon"
-                                            />{" "}
+                                            />
                                             <span className="fs-eight cpoint">
                                               India Vijay Hazare Trophy
                                             </span>
@@ -2213,7 +2213,7 @@ export default function HeroMatches() {
                                                 className="rounded-5"
                                                 src="/images/icon/auckland-aces.png" width={24} height={24}
                                                 alt="Icon"
-                                              />{" "}
+                                              />
                                               <span className="fs-seven cpoint">
                                                 Auckland Aces
                                               </span>
@@ -2223,7 +2223,7 @@ export default function HeroMatches() {
                                                 className="rounded-5"
                                                 src="/images/icon/otago-volts.png" width={24} height={24}
                                                 alt="Icon"
-                                              />{" "}
+                                              />
                                               <span className="fs-seven cpoint">
                                                 Otago Volts
                                               </span>

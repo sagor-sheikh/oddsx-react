@@ -450,7 +450,6 @@
         }
     }
 }
-
 // Navbar two
 .header-section {
     position: fixed;
@@ -565,7 +564,7 @@
                 .active{
                     border-bottom: 1px solid rgba(var(--g1), 1);
                 }
-                Link {
+                .navunik {
                     &:hover {
                         border-bottom: 1px solid rgba(var(--n8), 1);
                     }

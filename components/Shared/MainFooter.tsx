@@ -25,7 +25,7 @@ export default function MainFooter() {
                                             </li>
                                             <li className="iconstyle d-flex align-items-center">
                                                 <IconArrowBadgeRight className="fs-five rtawin" />
-                                                <Link className="fs-ten n4-color" href="#">Live Betting</Link>
+                                                <Link className="fs-ten n4-color" href="/floorball">Live Betting</Link>
                                             </li>
                                             <li className="iconstyle d-flex align-items-center">
                                                 <IconArrowBadgeRight className="fs-five rtawin" />
@@ -37,11 +37,11 @@ export default function MainFooter() {
                                             </li>
                                             <li className="iconstyle d-flex align-items-center">
                                                 <IconArrowBadgeRight className="fs-five rtawin" />
-                                                <Link className="fs-ten n4-color" href="#">Basketball</Link>
+                                                <Link className="fs-ten n4-color" href="/basketball">Basketball</Link>
                                             </li>
                                             <li className="iconstyle d-flex align-items-center">
                                                 <IconArrowBadgeRight className="fs-five rtawin" />
-                                                <Link className="fs-ten n4-color" href="#">Ice Hockey</Link>
+                                                <Link className="fs-ten n4-color" href="/ice-hockey">Ice Hockey</Link>
                                             </li>
                                         </ul>
                                     </div>
@@ -52,7 +52,7 @@ export default function MainFooter() {
                                         <ul className="d-flex flex-column gap-5">
                                             <li className="iconstyle d-flex align-items-center">
                                                 <IconArrowBadgeRight className="fs-five rtawin" />
-                                                <Link className="fs-ten n4-color" href="#">Sports Promotions</Link>
+                                                <Link className="fs-ten n4-color" href="/promotions">Sports Promotions</Link>
                                             </li>
                                             <li className="iconstyle d-flex align-items-center">
                                                 <IconArrowBadgeRight className="fs-five rtawin" />

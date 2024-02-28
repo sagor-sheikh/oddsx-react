@@ -82,7 +82,7 @@ export default function UpComingEvents() {
                                                                                     <div
                                                                                         className="top_matches__cmncard-right d-flex align-items-start justify-content-between pb-4 mb-4 gap-4 ">
                                                                                         <div className="d-flex align-items-center gap-1">
-                                                                                            <Image src="/images/icon/floorball.png" width={16} height={16}
+                                                                                            <Image src="/images/icon/floorball.png" width={15} height={15}
                                                                                                 alt="Icon" /> <span
                                                                                                     className="fs-eight cpoint">International
                                                                                                 Cup</span>
@@ -247,7 +247,7 @@ export default function UpComingEvents() {
                                                                             <div
                                                                                 className="top_matches__cmncard-right d-flex align-items-start justify-content-between pb-4 mb-4 gap-4 ">
                                                                                 <div className="d-flex align-items-center gap-1">
-                                                                                    <Image src="/images/icon/fifa-volta.png" width={16} height={16}
+                                                                                    <Image src="/images/icon/fifa-volta.png" width={15} height={15}
                                                                                         alt="Icon" /> <span
                                                                                             className="fs-eight cpoint">Germany
                                                                                         Bundesliga</span>
@@ -409,7 +409,7 @@ export default function UpComingEvents() {
                                                                             <div
                                                                                 className="top_matches__cmncard-right d-flex align-items-start justify-content-between pb-4 mb-4 gap-4 ">
                                                                                 <div className="d-flex align-items-center gap-1">
-                                                                                    <Image src="/images/icon/floorball.png" width={16} height={16}
+                                                                                    <Image src="/images/icon/floorball.png" width={15} height={15}
                                                                                         alt="Icon" /> <span
                                                                                             className="fs-eight cpoint">Portugal Liga
                                                                                         Portugal</span>
@@ -571,7 +571,7 @@ export default function UpComingEvents() {
                                                                             <div
                                                                                 className="top_matches__cmncard-right d-flex align-items-start justify-content-between pb-4 mb-4 gap-4 ">
                                                                                 <div className="d-flex align-items-center gap-1">
-                                                                                    <Image src="/images/icon/floorball.png" width={16} height={16}
+                                                                                    <Image src="/images/icon/floorball.png" width={15} height={15}
                                                                                         alt="Icon" /> <span
                                                                                             className="fs-eight cpoint">UEFA Youth
                                                                                         League</span>
@@ -734,7 +734,7 @@ export default function UpComingEvents() {
                                                                             <div
                                                                                 className="top_matches__cmncard-right d-flex align-items-start justify-content-between pb-4 mb-4 gap-4 ">
                                                                                 <div className="d-flex align-items-center gap-1">
-                                                                                    <Image src="/images/icon/floorball.png" width={16} height={16}
+                                                                                    <Image src="/images/icon/floorball.png" width={15} height={15}
                                                                                         alt="Icon" /> <span
                                                                                             className="fs-eight cpoint">Champions
                                                                                         League</span>
@@ -897,7 +897,7 @@ export default function UpComingEvents() {
                                                                             <div
                                                                                 className="top_matches__cmncard-right d-flex align-items-start justify-content-between pb-4 mb-4 gap-4 ">
                                                                                 <div className="d-flex align-items-center gap-1">
-                                                                                    <Image src="/images/icon/floorball.png" width={16} height={16}
+                                                                                    <Image src="/images/icon/floorball.png" width={15} height={15}
                                                                                         alt="Icon" /> <span
                                                                                             className="fs-eight cpoint">Champions
                                                                                         League</span>
@@ -1058,7 +1058,7 @@ export default function UpComingEvents() {
                                                                             <div
                                                                                 className="top_matches__cmncard-right d-flex align-items-start justify-content-between pb-4 mb-4 gap-4 ">
                                                                                 <div className="d-flex align-items-center gap-1">
-                                                                                    <Image src="/images/icon/floorball.png" width={16} height={16}
+                                                                                    <Image src="/images/icon/floorball.png" width={15} height={15}
                                                                                         alt="Icon" /> <span
                                                                                             className="fs-eight cpoint">Portugal Liga
                                                                                         Portugal</span>
@@ -1220,7 +1220,7 @@ export default function UpComingEvents() {
                                                                             <div
                                                                                 className="top_matches__cmncard-right d-flex align-items-start justify-content-between pb-4 mb-4 gap-4 ">
                                                                                 <div className="d-flex align-items-center gap-1">
-                                                                                    <Image src="/images/icon/floorball.png" width={16} height={16}
+                                                                                    <Image src="/images/icon/floorball.png" width={15} height={15}
                                                                                         alt="Icon" /> <span
                                                                                             className="fs-eight cpoint">Portugal Liga
                                                                                         Portugal</span>
@@ -1382,7 +1382,7 @@ export default function UpComingEvents() {
                                                                             <div
                                                                                 className="top_matches__cmncard-right d-flex align-items-start justify-content-between pb-4 mb-4 gap-4 ">
                                                                                 <div className="d-flex align-items-center gap-1">
-                                                                                    <Image src="/images/icon/floorball.png" width={16} height={16}
+                                                                                    <Image src="/images/icon/floorball.png" width={15} height={15}
                                                                                         alt="Icon" /> <span
                                                                                             className="fs-eight cpoint">Saudi Arabia .
                                                                                         Division 1</span>
@@ -1545,7 +1545,7 @@ export default function UpComingEvents() {
                                                                             <div
                                                                                 className="top_matches__cmncard-right d-flex align-items-start justify-content-between pb-4 mb-4 gap-4 ">
                                                                                 <div className="d-flex align-items-center gap-1">
-                                                                                    <Image src="/images/icon/floorball.png" width={16} height={16}
+                                                                                    <Image src="/images/icon/floorball.png" width={15} height={15}
                                                                                         alt="Icon" /> <span
                                                                                             className="fs-eight cpoint">Vietnam . Vietnam
                                                                                         Cup</span>
@@ -1708,7 +1708,7 @@ export default function UpComingEvents() {
                                                                             <div
                                                                                 className="top_matches__cmncard-right d-flex align-items-start justify-content-between pb-4 mb-4 gap-4 ">
                                                                                 <div className="d-flex align-items-center gap-1">
-                                                                                    <Image src="/images/icon/floorball.png" width={16} height={16}
+                                                                                    <Image src="/images/icon/floorball.png" width={15} height={15}
                                                                                         alt="Icon" /> <span
                                                                                             className="fs-eight cpoint">International
                                                                                         Cup</span>
@@ -1869,7 +1869,7 @@ export default function UpComingEvents() {
                                                                             <div
                                                                                 className="top_matches__cmncard-right d-flex align-items-start justify-content-between pb-4 mb-4 gap-4 ">
                                                                                 <div className="d-flex align-items-center gap-1">
-                                                                                    <Image src="/images/icon/floorball.png" width={16} height={16}
+                                                                                    <Image src="/images/icon/floorball.png" width={15} height={15}
                                                                                         alt="Icon" /> <span
                                                                                             className="fs-eight cpoint">India I .
                                                                                         League</span>
@@ -2032,7 +2032,7 @@ export default function UpComingEvents() {
                                                                             <div
                                                                                 className="top_matches__cmncard-right d-flex align-items-start justify-content-between pb-4 mb-4 gap-4 ">
                                                                                 <div className="d-flex align-items-center gap-1">
-                                                                                    <Image src="/images/icon/floorball.png" width={16} height={16}
+                                                                                    <Image src="/images/icon/floorball.png" width={15} height={15}
                                                                                         alt="Icon" /> <span
                                                                                             className="fs-eight cpoint">International
                                                                                         Champions</span>
@@ -2195,7 +2195,7 @@ export default function UpComingEvents() {
                                                                             <div
                                                                                 className="top_matches__cmncard-right d-flex align-items-start justify-content-between pb-4 mb-4 gap-4 ">
                                                                                 <div className="d-flex align-items-center gap-1">
-                                                                                    <Image src="/images/icon/floorball.png" width={16} height={16}
+                                                                                    <Image src="/images/icon/floorball.png" width={15} height={15}
                                                                                         alt="Icon" /> <span
                                                                                             className="fs-eight cpoint">Saudi Division
                                                                                         1</span>
@@ -2358,7 +2358,7 @@ export default function UpComingEvents() {
                                                                             <div
                                                                                 className="top_matches__cmncard-right d-flex align-items-start justify-content-between pb-4 mb-4 gap-4 ">
                                                                                 <div className="d-flex align-items-center gap-1">
-                                                                                    <Image src="/images/icon/floorball.png" width={16} height={16}
+                                                                                    <Image src="/images/icon/floorball.png" width={15} height={15}
                                                                                         alt="Icon" /> <span
                                                                                             className="fs-eight cpoint">Vietnam Cup</span>
                                                                                 </div>
@@ -2520,7 +2520,7 @@ export default function UpComingEvents() {
                                                                             <div
                                                                                 className="top_matches__cmncard-right d-flex align-items-start justify-content-between pb-4 mb-4 gap-4 ">
                                                                                 <div className="d-flex align-items-center gap-1">
-                                                                                    <Image src="/images/icon/floorball.png" width={16} height={16}
+                                                                                    <Image src="/images/icon/floorball.png" width={15} height={15}
                                                                                         alt="Icon" /> <span
                                                                                             className="fs-eight cpoint">Vietnam Cup</span>
                                                                                 </div>
@@ -2682,7 +2682,7 @@ export default function UpComingEvents() {
                                                                             <div
                                                                                 className="top_matches__cmncard-right d-flex align-items-start justify-content-between pb-4 mb-4 gap-4 ">
                                                                                 <div className="d-flex align-items-center gap-1">
-                                                                                    <Image src="/images/icon/floorball.png" width={16} height={16}
+                                                                                    <Image src="/images/icon/floorball.png" width={15} height={15}
                                                                                         alt="Icon" /> <span
                                                                                             className="fs-eight cpoint">Portugal Liga
                                                                                         Portugal</span>

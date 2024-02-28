@@ -183,3 +183,37 @@ export const otherSportsData = [
     href: "/wrestling",
   },
 ];
+
+
+export const naviTemData = [
+  {
+    id: 112232,
+    linkText: "Home",
+    href: "/",
+  },
+  {
+    id: 120341,
+    linkText: "Live Betting",
+    href: "/floorball",
+  },
+  {
+    id: 151272,
+    linkText: "Sports",
+    href: "/soccer",
+  },
+  {
+    id: 155534,
+    linkText: "eSports",
+    href: "/ecricket",
+  },
+  {
+    id: 138128,
+    linkText: "Racing",
+    href: "/cycling",
+  },
+  {
+    id: 122880,
+    linkText: "Promotions",
+    href: "/promotions",
+  },
+];

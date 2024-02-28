@@ -6,6 +6,7 @@ import { IconGift, IconAdjustmentsHorizontal, IconMessageDots, IconMenu2, IconX,
 import { useState, useEffect } from "react";
 import HeaderTwoChat from './HeaderTwoChat';
 import SideNav from './SideNav';
+import NavItem from './NavItem';
 
 export default function HeaderTwo() {
     const [isCardExpanded, setIsCardExpanded] = useState(false);
@@ -49,24 +50,7 @@ export default function HeaderTwo() {
                     <div className={`collapse navbar-collapse justify-content-between  ${isCardExpanded ? "show" : "hide"}`} id="navbar-content">
                         <ul
                             className="navbar-nav2fixed  navbar-nav d-flex align-items-lg-center gap-4 gap-sm-5  py-2 py-lg-0 align-self-center p2-bg">
-                            <li className="dropdown show-dropdown">
-                                <Link href="/">Home</Link>
-                            </li>
-                            <li className="dropdown show-dropdown">
-                                <Link href="/floorball">Live Betting</Link>
-                            </li>
-                            <li className="dropdown show-dropdown">
-                                <Link href="/soccer">Sports</Link>
-                            </li>
-                            <li className="dropdown show-dropdown">
-                                <Link href="/ecricket">eSports</Link>
-                            </li>
-                            <li className="dropdown show-dropdown">
-                                <Link href="/cycling">Racing</Link>
-                            </li>
-                            <li className="dropdown show-dropdown">
-                                <Link href="/promotions">Promotions</Link>
-                            </li>
+                            <NavItem />
                             <li className="dropdown show-dropdown d-block d-sm-none">
                                 <div className="d-flex align-items-center flex-wrap gap-3">
                                     <Link href="/login" className="cmn-btn second-alt px-xxl-11 rounded-2">Log In</Link>

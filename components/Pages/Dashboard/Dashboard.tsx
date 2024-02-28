@@ -7,16 +7,17 @@ import DepositAmount from './DepositAmount';
 import { Tab } from '@headlessui/react';
 import WithdrawalAmount from './WithdrawalAmount';
 import Link from 'next/link';
+import { dashboardTabs } from '@/public/data/dashTabs';
 
 export default function Dashboard() {
-    const [activeItem, setActiveItem] = useState(amountData[0]);
+    const [activeItem, setActiveItem] = useState(dashboardTabs[0]);
 
     const handleClick = (itemName: any) => {
         setActiveItem(itemName);
     };
     const getItemStyle = (itemName: any) => {
         return {
-            border: `1px solid ${activeItem === itemName ? '#35C31E' : '#2C3655'}`,
+            backgroundColor: activeItem === itemName ? '#0F1B42' : '',
         };
     };
 
@@ -33,49 +34,16 @@ export default function Dashboard() {
                                             <div className="pay_method__scrol">
                                                 <Tab.List
                                                     className="tablinks pay_method__scrollbar p2-bg p-5 p-md-6 rounded-4 d-flex align-items-center justify-content-center flex-xxl-column gap-3 gap-xxl-2">
-                                                    <Tab className="nav-links p-3  rounded-3 cpoint d-inline-block">
-                                                        <div className="tablink active d-flex align-items-center gap-2">
-                                                            <IconWallet className="ti ti-wallet fs-five n5-color" />
-                                                            Deposit
-                                                        </div>
-                                                    </Tab>
-                                                    <Tab className="nav-links p-3  rounded-3 cpoint d-inline-block">
-                                                        <div className="tablink d-flex align-items-center gap-2">
-                                                            <IconCreditCard className="ti ti-credit-card fs-five n5-color" />
-                                                            Withdrawal
-                                                        </div>
-                                                    </Tab>
-                                                    <Tab className="nav-links p-3  rounded-3 cpoint d-inline-block">
-                                                        <div className="tablink d-flex align-items-center gap-2 text-nowrap"><IconCreditCardOff
-                                                            className="ti ti-credit-card-off fs-five n5-color" />Cancel withdrawal
-                                                        </div>
-                                                    </Tab>
-                                                    <Tab className="nav-links p-3 text-nowrap rounded-3 cpoint d-inline-block">
-                                                        <div className="tablink d-flex align-items-center gap-2"><IconHistory
-                                                            className="ti ti-history fs-five n5-color" />Balance History
-                                                        </div>
-                                                    </Tab>
-                                                    <Tab className="nav-links p-3  rounded-3 cpoint d-inline-block">
-                                                        <div className="tablink d-flex align-items-center gap-2"><IconUser
-                                                            className="ti ti-user fs-five n5-color" /> Profile
-                                                        </div>
-                                                    </Tab>
-                                                    <Tab className="nav-links p-3  rounded-3 cpoint d-inline-block">
-                                                        <div className="tablink d-flex align-items-center gap-2"><IconSettings
-                                                            className="ti ti-settings fs-five n5-color" />Settings
-                                                        </div>
-                                                    </Tab>
-                                                    <Tab className="nav-links p-3  rounded-3 cpoint d-inline-block">
-                                                        <div className="tablink d-flex align-items-center gap-2"><IconBellRinging
-                                                            className="ti ti-bell-ringing fs-five n5-color" />
-                                                            Notifications
-                                                        </div>
-                                                    </Tab>
-                                                    <Tab className="nav-links p-3  rounded-3 cpoint d-inline-block">
-                                                        <Link href="#" className="tablink d-flex align-items-center gap-2"><IconLogout
-                                                            className="ti ti-logout fs-five n5-color" /> Log out
-                                                        </Link>
-                                                    </Tab>
+                                                    {dashboardTabs.map((singleTabs) => (
+                                                        <Tab onClick={() => handleClick(singleTabs)}
+                                                            style={getItemStyle(singleTabs)} className="nav-links p-3 rounded-3 cpoint d-inline-block outstles" key={singleTabs.id}>
+                                                            <div className="tablink d-flex align-items-center gap-2 outstles">
+                                                                {singleTabs.icon}
+                                                                {singleTabs.tabname}
+                                                            </div>
+                                                        </Tab>
+                                                    ))}
+
                                                 </Tab.List>
                                             </div>
                                         </div>
@@ -413,6 +381,95 @@ export default function Dashboard() {
                                                                 <button type="submit"
                                                                     className="py-4 px-5 n11-bg rounded-2 w-100">Save</button>
                                                             </form>
+                                                        </div>
+                                                    </div>
+                                                </Tab.Panel>
+                                                <Tab.Panel>
+                                                    <div className="pay_method__paymethod p-4 p-lg-6 p2-bg rounded-8">
+                                                        <div
+                                                            className="pay_method__paymethod-title d-flex align-items-center gap-3 mb-6 mb-md-8">
+                                                            <IconBellRinging width={28} height={28} className="ti ti-bell-ringing fs-four" />
+                                                            <h5 className="n10-color">Notifications settings </h5>
+                                                        </div>
+                                                        <div className="pay_method__Notiitem d-flex align-items-center gap-3 justify-content-between align-items-center pb-5 pb-md-6 mb-5 mb-md-6">
+                                                            <div className="pay_method__Notiitem-text">
+                                                                <h6 className="mb-3">Email Notifications</h6>
+                                                                <span className="fs-seven n4-color">Receive weekly email notifications.</span>
+                                                            </div>
+                                                            <div className="pay_method__Notiitem-switcher">
+                                                                <label className="switch">
+                                                                    <input type="checkbox" />
+                                                                    <div className="slider">
+                                                                        <div className="circle">
+
+                                                                        </div>
+                                                                    </div>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                        <div className="pay_method__Notiitem d-flex align-items-center gap-3 justify-content-between align-items-center pb-5 pb-md-6 mb-5 mb-md-6">
+                                                            <div className="pay_method__Notiitem-text">
+                                                                <h6 className="mb-3">Phone Notifications</h6>
+                                                                <span className="fs-seven n4-color">Receive weekly Phone notifications.</span>
+                                                            </div>
+                                                            <div className="pay_method__Notiitem-switcher">
+                                                                <label className="switch">
+                                                                    <input type="checkbox" />
+                                                                    <div className="slider">
+                                                                        <div className="circle">
+
+                                                                        </div>
+                                                                    </div>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                        <div className="pay_method__Notiitem d-flex align-items-center gap-3 justify-content-between align-items-center pb-5 pb-md-6 mb-5 mb-md-6">
+                                                            <div className="pay_method__Notiitem-text">
+                                                                <h6 className="mb-3">New tasks</h6>
+                                                                <span className="fs-seven n4-color">Receive weekly New tasks notifications.</span>
+                                                            </div>
+                                                            <div className="pay_method__Notiitem-switcher">
+                                                                <label className="switch">
+                                                                    <input type="checkbox" />
+                                                                    <div className="slider">
+                                                                        <div className="circle">
+
+                                                                        </div>
+                                                                    </div>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                        <div className="pay_method__Notiitem d-flex align-items-center gap-3 justify-content-between align-items-center pb-5 pb-md-6 mb-5 mb-md-6">
+                                                            <div className="pay_method__Notiitem-text">
+                                                                <h6 className="mb-3">Billing and payments</h6>
+                                                                <span className="fs-seven n4-color">Lorem ipsum dolor sit amet consectetur. Id.</span>
+                                                            </div>
+                                                            <div className="pay_method__Notiitem-switcher">
+                                                                <label className="switch">
+                                                                    <input type="checkbox" />
+                                                                    <div className="slider">
+                                                                        <div className="circle">
+
+                                                                        </div>
+                                                                    </div>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                        <div className="pay_method__Notiitem d-flex align-items-center gap-3 justify-content-between align-items-center border-0">
+                                                            <div className="pay_method__Notiitem-text">
+                                                                <h6 className="mb-3">Updates and announcements</h6>
+                                                                <span className="fs-seven n4-color">Lorem ipsum dolor sit amet consectetur.</span>
+                                                            </div>
+                                                            <div className="pay_method__Notiitem-switcher">
+                                                                <label className="switch">
+                                                                    <input type="checkbox" />
+                                                                    <div className="slider">
+                                                                        <div className="circle">
+
+                                                                        </div>
+                                                                    </div>
+                                                                </label>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </Tab.Panel>
