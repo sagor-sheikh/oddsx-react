@@ -373,7 +373,7 @@ export default function HeroMatches() {
                                       </div>
                                       <div className="col-xl-7 col-xxl-8 d-xl-flex">
                                         <div className="top_matches__clubdata top_matches__clubdatatwo">
-                                          <div className="table-responsive">
+                                          <div className="table-responsive maintain">
                                             <table className="table mb-0 pb-0">
                                               <thead>
                                                 <tr className="text-center">

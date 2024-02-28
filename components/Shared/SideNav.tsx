@@ -4,25 +4,11 @@ import Link from 'next/link'
 import React, { useState } from 'react'
 import { IconStarFilled } from '@tabler/icons-react';
 import { popularData, otherSportsData } from '@/public/data/navData';
+import { usePathname } from 'next/navigation';
 
 export default function SideNav() {
 
-    const [activeItem, setActiveItem] = useState(popularData[0]);
-    const handleClick = (itemName: any) => {
-        setActiveItem(itemName);
-    };
-
-    const getItemStyle = (itemName: any) => {
-        return {
-            backgroundColor: activeItem === itemName ? '#0F1B42' : '',
-        };
-    };
-    const getItemStyleTwo = (itemName: any) => {
-        return {
-            opacity: activeItem === itemName ? 1 : 0,
-        };
-    };
-
+    const path = usePathname()
     return (
         <>
             <ul className="secend-actives bg1-color rounded-5 d-flex flex-column gap-5 mb-5">
@@ -31,12 +17,12 @@ export default function SideNav() {
                         className="ti ti-brand-google-home n5-color fs-five"></i> Home</Link>
                 </li>
                 <li className="active">
-                    <Link href="javascript:void(0)" className="d-flex align-items-center gap-2"><i
+                    <Link href="#" className="d-flex align-items-center gap-2"><i
                         className="ti ti-garden-cart n5-color fs-five"></i>
                         Marketplace</Link>
                 </li>
                 <li className="active">
-                    <Link href="efighting.html" className="d-flex align-items-center gap-2"><svg
+                    <Link href="/efighting" className="d-flex align-items-center gap-2"><svg
                         xmlns="http://www.w3.org/2000/svg" width="24" height="22" viewBox="0 0 24 22"
                         fill="none">
                         <path
@@ -49,13 +35,15 @@ export default function SideNav() {
             <h5 className="mb-4 mb-md-6 mt-4 mt-md-6">Popular</h5>
             <ul className="aside_namelist d-flex flex-column gap-2">
                 {popularData.map((popularSingle) => (
-                    <li onClick={() => handleClick(popularSingle)}
-                        style={getItemStyle(popularSingle)} className="d-flex align-items-center justify-content-between px-3 py-2 rounded-3 gap-5" key={popularSingle.id}>
+                    <li
+                        className={`d-flex align-items-center justify-content-between px-3 py-2 rounded-3 gap-5  ${path == popularSingle.href && 'n11-bg'}`} key={popularSingle.id}>
                         <Link href={popularSingle.href} className="d-flex align-items-center gap-2"><Image
                             width={16} height={16} src={popularSingle.image} alt="icon" />{popularSingle.linkText}</Link>
-                        <button style={getItemStyleTwo(popularSingle)} type="button" className="g1-color">
-                            <IconStarFilled width={16} height={16} className="ti ti-star navinStyleClass navinstyle" />
-                        </button>
+                        {path == popularSingle.href &&
+                            <button type="button" className="g1-color">
+                                <IconStarFilled width={16} height={16} className="ti ti-star navinStyleClass navinstyle" />
+                            </button>
+                        }
                     </li>
                 ))}
             </ul>
@@ -63,13 +51,15 @@ export default function SideNav() {
             <h5 className="mb-4 mb-md-6">Other sports</h5>
             <ul className="aside_namelist d-flex flex-column gap-2 mb-15">
                 {otherSportsData.map((otherSingle) => (
-                    <li onClick={() => handleClick(otherSingle)}
-                        style={getItemStyle(otherSingle)} className="d-flex align-items-center justify-content-between px-3 py-2 rounded-3 gap-5" key={otherSingle.id}>
+                    <li
+                        className={`d-flex align-items-center justify-content-between px-3 py-2 rounded-3 gap-5  ${path == otherSingle.href && 'n11-bg'}`} key={otherSingle.id}>
                         <Link href={otherSingle.href} className="d-flex align-items-center gap-2"><Image
                             width={16} height={16} src={otherSingle.image} alt="icon" />{otherSingle.linkText}</Link>
-                        <button style={getItemStyleTwo(otherSingle)} type="button" className="g1-color">
-                            <IconStarFilled width={16} height={16} className="ti ti-star navinStyleClass navinstyle" />
-                        </button>
+                        {path == otherSingle.href &&
+                            <button type="button" className="g1-color">
+                                <IconStarFilled width={16} height={16} className="ti ti-star navinStyleClass navinstyle" />
+                            </button>
+                        }
                     </li>
                 ))}
             </ul>
