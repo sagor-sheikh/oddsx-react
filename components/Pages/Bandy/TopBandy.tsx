@@ -29,7 +29,7 @@ export default function TopBandy() {
                                                                 <div
                                                                     className="top_matches__cmncard-right d-flex align-items-start justify-content-between pb-4 mb-4 gap-4 ">
                                                                     <div className="d-flex align-items-center gap-1">
-                                                                        <Image src="/images/icon/bandy.png" width={16} height={16}
+                                                                        <Image src="/images/icon/bandy.png" width={13} height={13}
                                                                             alt="Icon" /> <span
                                                                                 className="fs-eight cpoint">Norway Eliteserien</span>
                                                                     </div>

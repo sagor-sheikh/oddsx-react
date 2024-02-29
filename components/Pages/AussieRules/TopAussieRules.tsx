@@ -25,7 +25,7 @@ export default function TopAussieRules() {
                                                 clubNameOne,
                                                 clubNameTwo,
                                             }) => (
-                                                <div className="top_matches__cmncard p2-bg p-4 rounded-3" key={id}>
+                                                <div className="top_matches__cmncard p2-bg p-4 rounded-3 mb-4" key={id}>
                                                     <div className="row gx-0 gy-xl-0 gy-7">
                                                         <div className="col-xl-5 col-xxl-4">
                                                             <div className="top_matches__clubname">
