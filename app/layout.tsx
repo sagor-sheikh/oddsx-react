@@ -12,6 +12,7 @@ export const metadata: Metadata = {
   description: "Made with nextjs bootstrap 5 & Sass",
 };
 
+
 export default function RootLayout({
   children,
 }: Readonly<{
