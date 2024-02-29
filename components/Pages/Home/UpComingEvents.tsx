@@ -40,7 +40,7 @@ export default function UpComingEvents() {
                                                     <Tab.List className="tablinks d-flex align-items-center gap-4 flex-wrap mb-5 mb-md-6">
                                                         {tabThree.map((tabThreeSingle) => (
                                                             <Tab className="nav-links" key={tabThreeSingle.buttonName}>
-                                                                <div onClick={() => handleClick(tabThreeSingle)}
+                                                                <span onClick={() => handleClick(tabThreeSingle)}
                                                                     style={getItemStyle(tabThreeSingle)} className="tablink clickable-active2 d-flex align-items-center gap-2 py-2 px-4 p3-bg rounded-17">
                                                                     <Image
                                                                         width={16}
@@ -49,7 +49,7 @@ export default function UpComingEvents() {
                                                                         alt="Icon"
                                                                     />{" "}
                                                                     {tabThreeSingle.buttonName}
-                                                                </div>
+                                                                </span>
                                                             </Tab>
                                                         ))}
                                                     </Tab.List>

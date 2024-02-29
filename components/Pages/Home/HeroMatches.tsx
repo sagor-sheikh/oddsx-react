@@ -40,7 +40,7 @@ export default function HeroMatches() {
                           <Tab.List className="tablinks d-flex align-items-center gap-4 flex-wrap mb-5 mb-md-6">
                             {tabOne.map((tabOneSingle) => (
                               <Tab className="nav-links" key={tabOneSingle.buttonName}>
-                                <div onClick={() => handleClick(tabOneSingle)}
+                                <span onClick={() => handleClick(tabOneSingle)}
                                   style={getItemStyle(tabOneSingle)} className="tablink clickable-active2 d-flex align-items-center gap-2 py-2 px-4 p3-bg rounded-17">
                                   <Image
                                     width={16}
@@ -49,7 +49,7 @@ export default function HeroMatches() {
                                     alt="Icon"
                                   />
                                   {tabOneSingle.buttonName}
-                                </div>
+                                </span>
                               </Tab>
                             ))}
                           </Tab.List>

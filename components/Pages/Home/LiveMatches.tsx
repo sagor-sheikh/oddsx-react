@@ -40,7 +40,7 @@ export default function LiveMatches() {
                           <Tab.List className="tablinks d-flex align-items-center gap-4 flex-wrap mb-5 mb-md-6">
                             {tabTwo.map((tabTwoSingle) => (
                               <Tab className="nav-links" key={tabTwoSingle.buttonName}>
-                                <div onClick={() => handleClick(tabTwoSingle)}
+                                <span onClick={() => handleClick(tabTwoSingle)}
                                   style={getItemStyle(tabTwoSingle)} className="tablink clickable-active2 d-flex align-items-center gap-2 py-2 px-4 p3-bg rounded-17" >
                                   <Image
                                     width={16}
@@ -49,7 +49,7 @@ export default function LiveMatches() {
                                     alt="Icon"
                                   />{" "}
                                   {tabTwoSingle.buttonName}
-                                </div>
+                                </span>
                               </Tab>
                             ))}
                           </Tab.List>
