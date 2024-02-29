@@ -9,7 +9,7 @@ import { IconBallFootball } from "@tabler/icons-react";
 export default function TopSlider() {
   return (
     <>
-      <section className="hero_area">
+      <section className="hero_area pb-5">
         <div className="container-fluid">
           <div className="row">
             <div className="col-12 gx-0 gx-sm-4">

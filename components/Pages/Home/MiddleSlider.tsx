@@ -9,7 +9,7 @@ import { IconBallFootball } from "@tabler/icons-react";
 export default function MiddleSilder() {
   return (
     <>
-      <section className="top_matches">
+      <section className="top_matches py-6">
         <div className="container-fluid">
           <div className="row">
             <div className="col-12 gx-0 gx-sm-4">
