@@ -37,10 +37,10 @@ export default function Dashboard() {
                                                     {dashboardTabs.map((singleTabs) => (
                                                         <Tab onClick={() => handleClick(singleTabs)}
                                                             style={getItemStyle(singleTabs)} className="nav-links p-3 rounded-3 cpoint d-inline-block outstles" key={singleTabs.id}>
-                                                            <div className="tablink d-flex align-items-center gap-2 outstles">
+                                                            <span className="tablink d-flex align-items-center gap-2 outstles">
                                                                 {singleTabs.icon}
                                                                 {singleTabs.tabname}
-                                                            </div>
+                                                            </span>
                                                         </Tab>
                                                     ))}
 

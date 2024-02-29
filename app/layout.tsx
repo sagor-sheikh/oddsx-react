@@ -2,8 +2,6 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import "@/public/scss/style.scss";
-import Script from 'next/script'
-// import HeaderMain from "@/components/Shared/HeaderMain";
 import MainFooter from "@/components/Shared/MainFooter";
 import FooterCard from "@/components/Shared/FooterCard";
 
@@ -22,11 +20,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        {/* <HeaderMain> */}
-        <main>{children}</main>
+        <main>
+          {children}
           <FooterCard />
           <MainFooter />
-        <Script src="../../cmnscdata/cmnData.js" defer />
+        </main>
       </body>
     </html>
   );
