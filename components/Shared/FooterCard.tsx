@@ -71,21 +71,9 @@ export default function FooterCard() {
                                     onClick={() => handleClick(item)}
                                     style={getItemStyle(item)}
                                 >
-                                    <label className="tab-trigger cpoint">{item}</label>
+                                    <span className="tab-trigger cpoint">{item}</span>
                                 </Tab>
                             ))}
-
-
-
-                            {/* <Tab className="tab-item">
-                                <label className="tab-trigger cpoint">Single</label>
-                            </Tab>
-                            <Tab className="tab-item">
-                                <label className="tab-trigger cpoint">Multiple</label>
-                            </Tab>
-                            <Tab className="tab-item">
-                                <label className="tab-trigger cpoint">System</label>
-                            </Tab> */}
                         </Tab.List>
                         <Tab.Panels className="tab-container n11-bg">
                             <Tab.Panel className="">
