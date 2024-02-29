@@ -7,13 +7,13 @@ import UpComingEvents from "@/components/Pages/Home/UpComingEvents";
 
 export default function Home() {
   return (
-    <main>
+    <>
       <HeaderMain />
       <HeroSlider />
       <HeroMatches />
       <LiveMatches />
       <MiddleSlider />
       <UpComingEvents />
-    </main>
+    </>
   );
 }
