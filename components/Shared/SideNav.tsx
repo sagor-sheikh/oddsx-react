@@ -1,13 +1,11 @@
 "use client"
 import Image from 'next/image'
 import Link from 'next/link'
-import React, { useState } from 'react'
 import { IconStarFilled } from '@tabler/icons-react';
 import { popularData, otherSportsData } from '@/public/data/navData';
 import { usePathname } from 'next/navigation';
 
 export default function SideNav() {
-
     const path = usePathname()
     return (
         <>

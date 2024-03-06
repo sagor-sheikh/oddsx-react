@@ -126,11 +126,11 @@ export default function FooterCard() {
                                 <div className="fixed_footer__content-bottom d-flex align-items-center justify-content-between">
                                     <div className="right-border d-flex align-items-center gap-2">
                                         <IconTrash height={20} width={20} className="ti ti-trash n3-color fs-five cpoint" />
-                                        <Link href="javascript:void(0)" className="n3-color fs-seven">Sign In & Bet</Link>
+                                        <Link href="#" className="n3-color fs-seven">Sign In & Bet</Link>
                                     </div>
                                     <div className="right-border2 d-flex align-items-center justify-content-end gap-2">
                                         <IconSettings height={20} width={20} className="ti ti-settings n3-color fs-five cpoint" />
-                                        <Link href="javascript:void(0)" className="n3-color fs-seven">Settings</Link>
+                                        <Link href="#" className="n3-color fs-seven">Settings</Link>
                                     </div>
                                 </div>
                             </Tab.Panel>
@@ -184,11 +184,11 @@ export default function FooterCard() {
                                 <div className="fixed_footer__content-bottom d-flex align-items-center justify-content-between">
                                     <div className="right-border d-flex align-items-center gap-2">
                                         <IconTrash height={20} width={20} className="ti ti-trash n3-color fs-five cpoint" />
-                                        <Link href="javascript:void(0)" className="n3-color fs-seven">Sign In & Bet</Link>
+                                        <Link href="#" className="n3-color fs-seven">Sign In & Bet</Link>
                                     </div>
                                     <div className="right-border2 d-flex align-items-center justify-content-end gap-2">
                                         <IconSettings height={20} width={20} className="ti ti-settings n3-color fs-five cpoint" />
-                                        <Link href="javascript:void(0)" className="n3-color fs-seven">Settings</Link>
+                                        <Link href="#" className="n3-color fs-seven">Settings</Link>
                                     </div>
                                 </div>
                             </Tab.Panel>
@@ -242,11 +242,11 @@ export default function FooterCard() {
                                 <div className="fixed_footer__content-bottom d-flex align-items-center justify-content-between">
                                     <div className="right-border d-flex align-items-center gap-2">
                                         <IconTrash height={20} width={20} className="ti ti-trash n3-color fs-five cpoint" />
-                                        <Link href="javascript:void(0)" className="n3-color fs-seven">Sign In & Bet</Link>
+                                        <Link href="#" className="n3-color fs-seven">Sign In & Bet</Link>
                                     </div>
                                     <div className="right-border2 d-flex align-items-center justify-content-end gap-2">
                                         <IconSettings height={20} width={20} className="ti ti-settings n3-color fs-five cpoint" />
-                                        <Link href="javascript:void(0)" className="n3-color fs-seven">Settings</Link>
+                                        <Link href="#" className="n3-color fs-seven">Settings</Link>
                                     </div>
                                 </div>
                             </Tab.Panel>

@@ -726,3 +726,30 @@ export const swedenData = [
     clubNameTwo: "AC Brive",
   },
 ];
+
+export const promotionData = [
+  {
+    id: "4214386426",
+    imgSrc: "/images/promotion2.png",
+    title: "Cashback Bonus",
+    bonusvalue: "20% up to €800",
+  },
+  {
+    id: "1421396001",
+    imgSrc: "/images/promotion1.png",
+    title: "Casino Welcome bonus",
+    bonusvalue: "50% up to €900",
+  },
+  {
+    id: "1222123074",
+    imgSrc: "/images/promotion4.png",
+    title: "Weekend Reload Bonus",
+    bonusvalue: "€700 + 50 Bonus Spins",
+  },
+  {
+    id: "2645786483",
+    imgSrc: "/images/promotion3.png",
+    title: "Casino Welcome bonus",
+    bonusvalue: "25% up to €4,000",
+  }
+]

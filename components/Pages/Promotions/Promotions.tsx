@@ -1,3 +1,4 @@
+import { promotionData } from '@/public/data/allPageData'
 import Image from 'next/image'
 import React from 'react'
 
@@ -13,7 +14,24 @@ export default function Promotions() {
                                     <div className="col-12">
                                         <h3>Promotions for you</h3>
                                     </div>
-                                    <div className="col-xxl-6">
+
+                                    {promotionData.map(({id, imgSrc, title, bonusvalue}) => (
+                                        <div className="col-xxl-6" key={id}>
+                                        <div
+                                            className="Promotions__card d-flex align-items-center justify-content-center justify-content-sm-between flex-wrap flex-sm-nowrap gap-6 p-4 p-lg-10 rounded-8 p3-bg">
+                                            <div className="Promotions__card-thumb text-center">
+                                                <Image src={imgSrc} width={308} height={203} alt="Icon" />
+                                            </div>
+                                            <div className="Promotions__card-content text-center text-sm-start">
+                                                    <h3 className="mb-6">{title}</h3>
+                                                    <span className="fs-two mb-10 mb-md-15 d-block">{bonusvalue}</span>
+                                                <button type="button" className="cmn-btn px-5 py-3">Get Bonus</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    ))}
+
+                                    {/* <div className="col-xxl-6">
                                         <div
                                             className="Promotions__card d-flex align-items-center justify-content-center justify-content-sm-between flex-wrap flex-sm-nowrap gap-6 p-4 p-lg-10 rounded-8 p3-bg">
                                             <div className="Promotions__card-thumb text-center">
@@ -64,7 +82,7 @@ export default function Promotions() {
                                                 <button type="button" className="cmn-btn px-5 py-3">Get Bonus</button>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>
